@@ -9,12 +9,14 @@ import {
   Noise,
   Vignette,
   ChromaticAberration,
+  SSAO,
 } from "@react-three/postprocessing";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import * as THREE from "three";
 import PremiumEarbud from "./PremiumEarbud";
 import MysteryScenes from "./MysteryScenes";
+import CosyStudio from "./CosyStudio";
 import { scrollState, win, T, at, computeProductVisibility, computeMysteryIntensity } from "@/lib/scrollState";
 
 const CHROMA_OFFSET = new THREE.Vector2(0.0007, 0.0009);
@@ -440,7 +442,9 @@ function PostFx() {
     }
     if (vignRef.current) {
       // Higher = darker corners. Mystery + finale lean in, hero opens up.
-      const target = 0.85 + mystery * 0.45 - heroOpen * 0.25 + finale * 0.1;
+      // Added a boost for the Studio experience to unify the scene.
+      const studioBoost = win(p, T.final.start, 1) * 0.2;
+      const target = 0.85 + mystery * 0.45 - heroOpen * 0.25 + finale * 0.1 + studioBoost;
       const cur = vignRef.current.darkness ?? 1.05;
       vignRef.current.darkness = ANIM_LERP(cur, target, dt, 2.5);
     }
@@ -448,10 +452,12 @@ function PostFx() {
 
   return (
     <EffectComposer multisampling={0}>
-      <Bloom intensity={0.9} luminanceThreshold={0.5} luminanceSmoothing={0.4} mipmapBlur />
+      <Bloom intensity={0.8} luminanceThreshold={0.5} luminanceSmoothing={0.4} mipmapBlur />
       <ChromaticAberration offset={CHROMA_OFFSET} radialModulation={false} modulationOffset={0} />
       <Noise ref={noiseRef} opacity={0.08} />
       <Vignette ref={vignRef} eskil={false} offset={0.22} darkness={1.05} />
+      {/* Ambient Occlusion for corners and depth */}
+      <SSAO radius={0.5} intensity={1.5} luminanceInfluence={0.1} />
     </EffectComposer>
   );
 }
@@ -507,6 +513,7 @@ export default function Experience() {
         <Suspense fallback={null}>
           <MysteryScenes />
           <PremiumEarbud />
+          <CosyStudio />
           <StudioEnvironment />
         </Suspense>
 
