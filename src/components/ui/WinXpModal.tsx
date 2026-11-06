@@ -95,7 +95,7 @@ function playStartupChime(ctx: AudioContext) {
 /* ------------------------------------------------------------------ */
 
 const BOOT_LINES = [
-  { text: "AURA BIOS v4.2.1 — Initializing...", delay: 0 },
+  { text: "HARDIKVERSE BIOS v4.2.1 — Initializing...", delay: 0 },
   { text: "Memory check: 65536 KB OK", delay: 200 },
   { text: "Audio subsystem: Graphene Driver Array detected", delay: 500 },
   { text: "Spatial engine: 360° soundstage loaded", delay: 800 },
@@ -103,9 +103,9 @@ const BOOT_LINES = [
   { text: "Codec: LDAC / aptX Lossless — locked", delay: 1400 },
   { text: "Battery: 48h playback — full charge", delay: 1600 },
   { text: "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━", delay: 1800 },
-  { text: "All systems nominal. Welcome to Aura.", delay: 2000 },
+  { text: "All systems nominal. Welcome to Hardikverse.", delay: 2000 },
   { text: "", delay: 2200 },
-  { text: "C:\\AURA> experience_with_audio.exe", delay: 2500 },
+  { text: "C:\\HARDIKVERSE> experience_with_audio.exe", delay: 2500 },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -321,7 +321,7 @@ export default function WinXpModal({ onDismiss }: Props) {
           style={{ animation: "fadeIn 0.3s ease-out" }}
         >
           <div className="max-w-lg w-full">
-            {/* AURA logo at top */}
+            {/* HARDIKVERSE logo at top */}
             <div className="mb-8 text-center">
               <p
                 className="font-display text-2xl font-bold tracking-[0.5em] uppercase"
@@ -330,10 +330,10 @@ export default function WinXpModal({ onDismiss }: Props) {
                   textShadow: "0 0 20px rgba(87, 230, 255, 0.5), 0 0 40px rgba(87, 230, 255, 0.2)",
                 }}
               >
-                AURA
+                HARDIKVERSE
               </p>
               <p className="mt-1 text-[10px] tracking-[0.4em] text-white/55">
-                AUDIO SYSTEMS
+                INTERACTIVE WORLD
               </p>
             </div>
 
@@ -403,7 +403,7 @@ export default function WinXpModal({ onDismiss }: Props) {
               <span className="text-[7px] font-black text-[#003366]">♫</span>
             </div>
             <span className="flex-1 truncate text-[11px] font-bold text-white drop-shadow-[0_1px_1px_rgba(0,0,0,0.5)]">
-              AURA_EXPERIENCE.exe
+              HARDIKVERSE_EXPERIENCE.exe
             </span>
             <div className="flex gap-[2px]">
               {/* Minimize */}
@@ -486,7 +486,7 @@ export default function WinXpModal({ onDismiss }: Props) {
                   className="mb-1 text-[13px] font-bold"
                   style={{ color: "#003399" }}
                 >
-                  AURA Audio Experience
+                  Hardikverse Audio Experience
                 </p>
                 <p
                   className="mb-4 text-[12px] leading-[1.6]"

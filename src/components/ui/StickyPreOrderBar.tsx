@@ -75,7 +75,7 @@ export default function StickyPreOrderBar() {
         {/* Product name */}
         <div className="flex items-center gap-2">
           <span className="font-display text-xs md:text-sm font-bold uppercase tracking-wider">
-            AURA One
+            HARDIKVERSE One
           </span>
           <span className="hidden md:inline text-white/30">·</span>
           <span className="hidden md:inline text-[10px] uppercase tracking-[0.25em] text-white/55">
