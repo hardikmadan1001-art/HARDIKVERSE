@@ -13,6 +13,7 @@ import { InteractiveObject } from "./InteractiveObject";
 function VideoScreen() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const textureRef = useRef<THREE.VideoTexture | null>(null);
+  const materialRef = useRef<THREE.MeshBasicMaterial>(null);
 
   useEffect(() => {
     // Create the video element
@@ -22,6 +23,9 @@ function VideoScreen() {
     video.loop = true;
     video.muted = true;
     video.playsInline = true;
+
+    // To reduce stutter, we ensure the video is fully loaded before starting
+    video.load();
 
     // Attempt to play immediately
     video.play().catch(err => {
@@ -35,7 +39,20 @@ function VideoScreen() {
     textureRef.current.minFilter = THREE.LinearFilter;
     textureRef.current.magFilter = THREE.LinearFilter;
 
+    // Screen Flicker Effect: Subtle random brightness shifts
+    let animationFrameId: number;
+    const flicker = () => {
+      if (materialRef.current) {
+        // Randomly vary intensity between 0.9 and 1.1 for a subtle flicker
+        const intensity = 0.9 + Math.random() * 0.2;
+        materialRef.current.color.setRGB(intensity, intensity, intensity);
+      }
+      animationFrameId = requestAnimationFrame(flicker);
+    };
+    flicker();
+
     return () => {
+      cancelAnimationFrame(animationFrameId);
       video.pause();
       video.src = "";
       video.load();
@@ -47,6 +64,7 @@ function VideoScreen() {
     <mesh position={[0, 0, 0.06]}>
       <planeGeometry args={[1.9, 1.1]} />
       <meshBasicMaterial
+        ref={materialRef}
         map={textureRef.current || null}
         toneMapped={false}
       />
@@ -166,14 +184,16 @@ export default function CosyStudio() {
         scale={[0.3, 1.5, 1]}
       />
 
-      {/* Messi Jersey: Hanging on a hook on the left wall. */}
+      {/* Messi Jersey: Hanging on a hook on the left wall. "Lived-in" offset applied. */}
       <InteractiveObject
-        position={[-9.8, 1.8, -2.0]}
-        rotation={[0, 45 * (Math.PI / 180), 5 * (Math.PI / 180)]}
+        position={[-9.7, 1.8, -2.2]}
+        rotation={[0, 52 * (Math.PI / 180), 8 * (Math.PI / 180)]}
         assetPath="/assets/interactive/messi_jersey.png"
         label="Messi Jersey"
         description="The legendary GOAT's jersey. A symbol of pure brilliance."
         scale={[0.6, 0.8, 1]}
+        framed={true}
+        frameColor="#111"
       />
 
       {/* TV / Monitor: Central focal point. */}
@@ -185,20 +205,21 @@ export default function CosyStudio() {
         <VideoScreen />
       </group>
 
-      {/* Bayern Flag: Placed on the back wall. */}
+      {/* Bayern Flag: Placed on the back wall. "Lived-in" offset applied. */}
       <InteractiveObject
-        position={[1.2, 2.2, -4.9]}
-        rotation={[0, -5 * (Math.PI / 180), 2 * (Math.PI / 180)]}
+        position={[1.3, 2.3, -4.85]}
+        rotation={[0, -12 * (Math.PI / 180), 6 * (Math.PI / 180)]}
         assetPath="/assets/interactive/bayern_flag.png"
         label="Bayern Munich Flag"
         description="Mia San Mia. The spirit of Bavarian football."
         scale={[0.7, 1.0, 1]}
+        isFabric={true}
       />
 
-      {/* Karan Aujla Poster: Layered on the back wall. */}
+      {/* Karan Aujla Poster: Layered on the back wall. "Lived-in" offset applied. */}
       <InteractiveObject
-        position={[1.5, 1.8, -4.9]}
-        rotation={[0, -5 * (Math.PI / 180), 0]}
+        position={[1.6, 1.7, -4.88]}
+        rotation={[0, -12 * (Math.PI / 180), -6 * (Math.PI / 180)]}
         assetPath="/assets/interactive/aujla_poster.png"
         label="Karan Aujla Poster"
         description="The Geetan Di Machine. Pure energy."
@@ -207,22 +228,22 @@ export default function CosyStudio() {
 
       {/* --- AMBIENT LIGHTING --- */}
 
-      {/* Warm "Golden Hour" Lamp: Amber #ffb45e */}
+      {/* Warm "Golden Hour" Lamp: Amber #ffb45e. Cinematic intensity and position. */}
       <pointLight
-        position={[-3, 3, -2]}
+        position={[-3, 3.5, -2]}
         color="#ffb45e"
-        intensity={15}
+        intensity={25}
         castShadow
-        shadow-mapSize={[1024, 1024]}
+        shadow-mapSize={[2048, 2048]}
       />
 
-      {/* Cool "Screen Glow": Cyan #57e6ff emitting from TV */}
+      {/* Cool "Screen Glow": Cyan #57e6ff emitting from TV. Cinematic focus. */}
       <pointLight
-        position={[0.3, 1.5, -4.9]}
+        position={[0.3, 1.5, -4.8]}
         color="#57e6ff"
-        intensity={10}
-        distance={4}
-        decay={2}
+        intensity={15}
+        distance={5}
+        decay={1.5}
       />
     </group>
   );

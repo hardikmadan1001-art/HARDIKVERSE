@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import gsap from "gsap";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
-import { ACTS, SCENES } from "@/lib/story";
+import { ACTS, SCENES, TOTAL_VH } from "@/lib/story";
 
 gsap.registerPlugin(ScrollToPlugin);
 
@@ -35,16 +35,16 @@ export default function WorldMap() {
 
   useEffect(() => {
     const handleScroll = () => {
-      // Logic to determine current location based on scroll
       const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
       const progress = window.scrollY / totalHeight;
 
       const scene = SCENES.find((s, i) => {
-        // Simple approximation: find the scene whose cumulative height matches progress
         let acc = 0;
         for (let j = 0; j < SCENES.length; j++) {
+          const start = acc / TOTAL_VH;
+          const end = (acc + SCENES[j].vh) / TOTAL_VH;
+          if (j === i && progress >= start && progress <= end) return true;
           acc += SCENES[j].vh;
-          if (j === i && progress >= (acc - SCENES[j].vh) / 100 && progress <= acc / 100) return true;
         }
         return false;
       });
@@ -69,7 +69,7 @@ export default function WorldMap() {
         onComplete: () => {
           setIsOpen(false);
           gsap.to(window, {
-            duration: 2,
+            duration: 1.5,
             scrollTo: { y: el, offsetY: 0 },
             ease: "expo.inOut",
           });

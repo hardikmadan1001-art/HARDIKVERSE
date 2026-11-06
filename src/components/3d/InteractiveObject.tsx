@@ -10,6 +10,9 @@ interface InteractiveObjectProps {
   label: string;
   description: string;
   scale?: [number, number, number];
+  framed?: boolean;
+  frameColor?: string;
+  isFabric?: boolean;
 }
 
 export function InteractiveObject({
@@ -18,7 +21,10 @@ export function InteractiveObject({
   assetPath,
   label,
   description,
-  scale = [1, 1, 1]
+  scale = [1, 1, 1],
+  framed = false,
+  frameColor = "#333",
+  isFabric = false,
 }: InteractiveObjectProps) {
   const [hovered, setHovered] = useState(false);
   const [active, setActive] = useState(false);
@@ -32,6 +38,27 @@ export function InteractiveObject({
       onPointerOut={() => setHovered(false)}
       onClick={() => setActive(!active)}
     >
+      {framed && (
+        <group position={[0, 0, -0.01]}>
+          <mesh>
+            <boxGeometry args={[1.1, 1.1, 0.05]} />
+            <meshStandardMaterial
+              color={frameColor}
+              roughness={0.1}
+              metalness={0.9}
+            />
+          </mesh>
+          {/* Bevel effect: a slightly smaller, recessed inner frame to create a bevel look */}
+          <mesh position={[0, 0, 0.01]}>
+            <boxGeometry args={[1.05, 1.05, 0.01]} />
+            <meshStandardMaterial
+              color={frameColor}
+              roughness={0.05}
+              metalness={1}
+            />
+          </mesh>
+        </group>
+      )}
       {/* High-res PNG asset using Image from @react-three/drei */}
       <Image
         url={assetPath}

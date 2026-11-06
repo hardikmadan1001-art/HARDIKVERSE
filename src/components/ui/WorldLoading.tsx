@@ -27,6 +27,16 @@ export default function WorldLoading({ onComplete }: { onComplete: () => void })
     "Finalizing atmospheric layers...",
   ];
 
+  const [isInitializing, setIsInitializing] = useState(true);
+
+
+  useEffect(() => {
+    const initTimer = setTimeout(() => {
+      setIsInitializing(false);
+    }, 2000);
+    return () => clearTimeout(initTimer);
+  }, []);
+
   useEffect(() => {
     const interval = setInterval(() => {
       setProgress((prev) => {
@@ -64,6 +74,13 @@ export default function WorldLoading({ onComplete }: { onComplete: () => void })
       transition={{ duration: 1.2, ease: [0.43, 0.13, 0.23, 0.96] }}
       className="fixed inset-0 z-[200] flex flex-col items-center justify-center bg-black text-white"
     >
+      {/* Cinematic Fade-In Overlay */}
+      <motion.div
+        initial={{ opacity: 1 }}
+        animate={{ opacity: 0 }}
+        transition={{ duration: 1.5, ease: "easeInOut", delay: 0.2 }}
+        className="absolute inset-0 z-[210] bg-black pointer-events-none"
+      />
       {/* Ambient Background Glow */}
       <div
         className="pointer-events-none absolute h-[60vh] w-[60vh] rounded-full"
@@ -75,16 +92,35 @@ export default function WorldLoading({ onComplete }: { onComplete: () => void })
 
       <div className="relative z-10 flex flex-col items-center gap-8 px-6 text-center">
         <AnimatePresence mode="wait">
-          <motion.p
-            key={messageIndex}
-            initial={{ opacity: 0, y: 10, filter: "blur(8px)" }}
-            animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-            exit={{ opacity: 0, y: -10, filter: "blur(8px)" }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
-            className="font-display text-sm md:text-base font-medium uppercase tracking-[0.3em] text-white/60"
-          >
-            {messages[messageIndex]}
-          </motion.p>
+          {isInitializing ? (
+            <motion.p
+              key="init"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.2 }}
+              className="font-display text-sm md:text-base font-medium uppercase tracking-[0.3em] text-white/60"
+            >
+              <motion.span
+                animate={{ opacity: [1, 0, 1, 0, 1] }}
+                transition={{ repeat: Infinity, duration: 0.2, ease: "linear" }}
+                className="inline-block"
+              >
+                System Initializing...
+              </motion.span>
+            </motion.p>
+          ) : (
+            <motion.p
+              key={messageIndex}
+              initial={{ opacity: 0, y: 10, filter: "blur(8px)" }}
+              animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+              exit={{ opacity: 0, y: -10, filter: "blur(8px)" }}
+              transition={{ duration: 0.6, ease: "easeOut" }}
+              className="font-display text-sm md:text-base font-medium uppercase tracking-[0.3em] text-white/60"
+            >
+              {messages[messageIndex]}
+            </motion.p>
+          )}
         </AnimatePresence>
 
         <div className="flex flex-col items-center gap-3 w-64">

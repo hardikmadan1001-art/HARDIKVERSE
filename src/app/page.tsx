@@ -6,6 +6,7 @@ import Experience from "@/components/3d/Experience";
 import CinematicOverlay from "@/components/ui/CinematicOverlay";
 import Hud from "@/components/ui/Hud";
 import CustomCursor from "@/components/ui/CustomCursor";
+import SettingsPanel from "@/components/ui/SettingsPanel";
 import ActWipe from "@/components/ui/ActWipe";
 import AuraLoader from "@/components/ui/AuraLoader";
 import AudioPlayer from "@/components/ui/AudioPlayer";
@@ -16,6 +17,8 @@ import CinemaMode from "@/components/ui/CinemaMode";
 import StickyPreOrderBar from "@/components/ui/StickyPreOrderBar";
 import PreOrderModal from "@/components/ui/PreOrderModal";
 import HUDViewportMode from "@/components/ui/HUDViewportMode";
+import WorldMap from "@/components/ui/WorldMap";
+import WorldLoading from "@/components/ui/WorldLoading";
 
 /**
  * Home — the Aura One interactive film.
@@ -39,10 +42,15 @@ import HUDViewportMode from "@/components/ui/HUDViewportMode";
 export default function Home() {
   const [audioReady, setAudioReady] = useState(false);
   const [modalDismissed, setModalDismissed] = useState(false);
+  const [worldReady, setWorldReady] = useState(false);
 
   const handleModalDismiss = useCallback(() => {
     setAudioReady(true);
     setTimeout(() => setModalDismissed(true), 100);
+  }, []);
+
+  const handleWorldLoadingComplete = useCallback(() => {
+    setWorldReady(true);
   }, []);
 
   // Lock scroll while modal is open
@@ -72,11 +80,13 @@ export default function Home() {
 
       <CustomCursor />
       <Hud />
+      <SettingsPanel />
 
       {/* ---- Navigation & UX ---- */}
       <ChapterScrubber />
       <CinemaMode />
       <HUDViewportMode />
+      {worldReady && <WorldMap />}
 
       {/* Fixed WebGL stage — the film */}
       <Experience />
@@ -98,6 +108,11 @@ export default function Home() {
 
       {/* Retro XP Modal — gates the experience */}
       {!modalDismissed && <WinXpModal onDismiss={handleModalDismiss} />}
+
+      {/* World Loading Sequence — appears after XP modal but before world interaction */}
+      {modalDismissed && !worldReady && (
+        <WorldLoading onComplete={handleWorldLoadingComplete} />
+      )}
     </main>
   );
 }

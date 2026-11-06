@@ -478,6 +478,15 @@ export default function Experience() {
     return window.innerWidth < 768 || /Mobi|Android/i.test(navigator.userAgent);
   });
 
+  const [isLowEnd] = useState(() => {
+    if (typeof window === "undefined") return false;
+    return (
+      navigator.hardwareConcurrency <= 4 ||
+      (navigator.deviceMemory && navigator.deviceMemory <= 4) ||
+      /Mobi|Android/i.test(navigator.userAgent)
+    );
+  });
+
   // One global ScrollTrigger writes progress into the mutable store.
   // Nothing here ever calls setState while scrolling.
   return (
@@ -485,7 +494,13 @@ export default function Experience() {
       <Canvas
         dpr={dpr}
         frameloop={isMobile ? "demand" : "always"}
-        gl={{ antialias: !isMobile, powerPreference: "high-performance", alpha: false }}
+        gl={{
+          antialias: !isMobile,
+          powerPreference: "high-performance",
+          alpha: false,
+          stencil: false,
+          depth: true,
+        }}
         camera={{ position: [0, 0.15, 10.5], fov: 40 }}
         onCreated={({ gl }) => {
           ScrollTrigger.create({
@@ -511,13 +526,13 @@ export default function Experience() {
         <CameraRig />
         <Lights />
         <Suspense fallback={null}>
-          <MysteryScenes />
+          {!isLowEnd && <MysteryScenes />}
           <PremiumEarbud />
           <CosyStudio />
           <StudioEnvironment />
         </Suspense>
 
-        <PostFx />
+        {!isLowEnd && <PostFx />}
       </Canvas>
     </div>
   );
