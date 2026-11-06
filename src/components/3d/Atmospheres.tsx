@@ -56,8 +56,6 @@ export function Dust() {
     setIsMounted(true);
   }, []);
 
-  if (!isMounted) return null;
-
   useFrame(({ clock }) => {
     if (ref.current) ref.current.rotation.y = clock.elapsedTime * 0.01;
     if (matRef.current) {
@@ -69,6 +67,8 @@ export function Dust() {
       matRef.current.opacity = actOne + vessel + finale;
     }
   });
+
+  if (!isMounted) return null;
 
   return (
     <points ref={ref}>
@@ -237,8 +237,6 @@ export function NoiseField() {
     setIsMounted(true);
   }, []);
 
-  if (!isMounted) return null;
-
   const seeds = useMemo(
     () => {
       const rand = mulberry32(4242);
@@ -278,6 +276,8 @@ export function NoiseField() {
     });
     attr.needsUpdate = true;
   });
+
+  if (!isMounted) return null;
 
   return (
     <points ref={ref} frustumCulled={false} position={[0, 0.5, 0]}>
@@ -639,8 +639,6 @@ export function GrapheneLattice() {
     setIsMounted(true);
   }, []);
 
-  if (!isMounted) return null;
-
   const seeds = useMemo(() => {
     const rand = mulberry32(7777);
     return Array.from({ length: HEX_COUNT }, () => ({
@@ -682,6 +680,8 @@ export function GrapheneLattice() {
     attr.needsUpdate = true;
     if (ref.current) ref.current.rotation.y = t * 0.06;
   });
+
+  if (!isMounted) return null;
 
   return (
     <points ref={ref} position={[0, 0.6, 0]}>
@@ -771,8 +771,6 @@ export function AssemblySparks() {
     setIsMounted(true);
   }, []);
 
-  if (!isMounted) return null;
-
   const seeds = useMemo(() => {
     const rand = mulberry32(9123);
     return Array.from({ length: SPARK_COUNT }, () => ({
@@ -816,6 +814,8 @@ export function AssemblySparks() {
     });
     attr.needsUpdate = true;
   });
+
+  if (!isMounted) return null;
 
   return (
     <points ref={ref} frustumCulled={false} position={[0, 0.3, 0]}>
@@ -997,8 +997,6 @@ export function OriginEmbers() {
     setIsMounted(true);
   }, []);
 
-  if (!isMounted) return null;
-
   const seeds = useMemo(() => {
     const rand = mulberry32(3333);
     return Array.from({ length: EMBER_COUNT }, () => ({
@@ -1042,6 +1040,8 @@ export function OriginEmbers() {
     });
     attr.needsUpdate = true;
   });
+
+  if (!isMounted) return null;
 
   return (
     <points ref={ref} frustumCulled={false} position={[0, 0.2, 0]}>
@@ -1132,8 +1132,6 @@ export function OvertonesViz() {
     setIsMounted(true);
   }, []);
 
-  if (!isMounted) return null;
-
   const seeds = useMemo(() => {
     const rand = mulberry32(6666);
     return Array.from({ length: DECAY_COUNT }, () => ({
@@ -1164,6 +1162,8 @@ export function OvertonesViz() {
     });
     attr.needsUpdate = true;
   });
+
+  if (!isMounted) return null;
 
   return (
     <points ref={ref} frustumCulled={false} position={[0, 0.5, 0]}>
