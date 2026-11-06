@@ -14,17 +14,27 @@ export default function WorldLoading({ onComplete }: { onComplete: () => void })
 
   const messages = [
     "Initializing neural audio matrix...",
+    "Lattice check... OK",
     "Calibrating sonic horizons...",
+    "Spatial grid... OK",
     "Synchronizing with the aura...",
+    "Spectral density... OK",
     "Tuning the frequencies of the void...",
+    "Resonance stable... OK",
     "Analyzing spectral density...",
+    "Frequency lock... OK",
     "Preparing your little corner of the internet...",
     "Assembling your audio sanctuary...",
     "Optimizing haptic feedback loops...",
+    "Haptic sync... OK",
     "Decoding harmonic resonance...",
+    "Harmonic align... OK",
     "Stabilizing spatial audio grid...",
+    "Grid parity... OK",
     "Mapping the soundscape...",
+    "Atlas updated... OK",
     "Finalizing atmospheric layers...",
+    "Atmosphere... OK",
   ];
 
   const [isInitializing, setIsInitializing] = useState(true);
@@ -74,6 +84,13 @@ export default function WorldLoading({ onComplete }: { onComplete: () => void })
       transition={{ duration: 1.2, ease: [0.43, 0.13, 0.23, 0.96] }}
       className="fixed inset-0 z-[200] flex flex-col items-center justify-center bg-black text-white"
     >
+      {/* Cinematic Pre-Reveal Blur Overlay */}
+      <motion.div
+        initial={{ opacity: 1, backdropFilter: "blur(20px)" }}
+        animate={{ opacity: 0, backdropFilter: "blur(0px)" }}
+        transition={{ duration: 2.5, ease: "easeInOut", delay: 0.5 }}
+        className="absolute inset-0 z-[210] pointer-events-none"
+      />
       {/* Cinematic Fade-In Overlay */}
       <motion.div
         initial={{ opacity: 1 }}

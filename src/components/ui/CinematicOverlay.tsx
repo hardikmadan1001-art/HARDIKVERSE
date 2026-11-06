@@ -1260,6 +1260,14 @@ export default function CinematicOverlay() {
     return () => ctx.revert();
   }, []);
 
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) return null;
+
   return (
     <div ref={root} className="relative z-10 font-sans">
       {/* ================================================================ */}

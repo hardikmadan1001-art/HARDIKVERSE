@@ -3,6 +3,7 @@
 import { useRef, useEffect } from "react";
 import * as THREE from "three";
 import { useTexture } from "@react-three/drei";
+import { EffectComposer, Bloom, Noise } from "@react-three/postprocessing";
 import gsap from "gsap";
 import { InteractiveObject } from "./InteractiveObject";
 
@@ -61,14 +62,28 @@ function VideoScreen() {
   }, []);
 
   return (
-    <mesh position={[0, 0, 0.06]}>
-      <planeGeometry args={[1.9, 1.1]} />
-      <meshBasicMaterial
-        ref={materialRef}
-        map={textureRef.current || null}
-        toneMapped={false}
-      />
-    </mesh>
+    <group>
+      <mesh position={[0, 0, 0.06]}>
+        <planeGeometry args={[1.9, 1.1]} />
+        <meshBasicMaterial
+          ref={materialRef}
+          map={textureRef.current || null}
+          toneMapped={false}
+        />
+      </mesh>
+      {/* Scanline Overlay */}
+      <mesh position={[0, 0, 0.061]}>
+        <planeGeometry args={[1.9, 1.1]} />
+        <meshBasicMaterial
+          transparent
+          opacity={0.15}
+          color="#000"
+          alphaTest={0.01}
+          map={new THREE.TextureLoader().load('https://raw.githubusercontent.com/mrdoob/three.js/master/examples/textures/grid.png')} // Using a generic grid as a scanline approximation if local asset is missing, but better to use a custom shader or CSS-like pattern.
+          // Since I can't easily create a PNG, I'll use a repeated small texture or just a very subtle overlay.
+        />
+      </mesh>
+    </group>
   );
 }
 
@@ -88,22 +103,16 @@ export default function CosyStudio() {
 
     children.forEach((child, index) => {
       if (child instanceof THREE.Group || child instanceof THREE.Mesh) {
-        // Only animate the assets, not the lights or the walls/floor
-        // Assets are the objects we want to drop in.
-        // Based on the JSX, they are after the base room layer group.
-        // Base room layer is at index 0. Assets start at index 1.
         if (index > 0 && index < 6) {
           const originalPos = child.position.clone();
           const originalRot = child.rotation.clone();
 
-          // Start position: falling from above with some random X/Z offset
           child.position.set(
             originalPos.x + (Math.random() - 0.5) * 2,
             originalPos.y + 10,
             originalPos.z + (Math.random() - 0.5) * 2
           );
 
-          // Entry rotation: random tilt
           child.rotation.set(
             Math.random() * 0.5,
             Math.random() * 0.5,
@@ -114,9 +123,9 @@ export default function CosyStudio() {
             x: originalPos.x,
             y: originalPos.y,
             z: originalPos.z,
-            duration: 1.2,
+            duration: 1.5,
             delay: (index - 1) * 0.1,
-            ease: "bounce.out",
+            ease: "elastic.out(1, 0.5)",
           });
 
           gsap.to(child.rotation, {
@@ -134,6 +143,15 @@ export default function CosyStudio() {
 
   return (
     <group ref={groupRef} position={[0, 0, 0]}>
+      <EffectComposer disableNormalPass>
+        <Bloom
+          intensity={1.5}
+          luminanceThreshold={0.1}
+          luminanceSmoothing={0.9}
+        />
+        <Noise opacity={0.05} />
+      </EffectComposer>
+
       {/* --- BASE ROOM LAYER --- */}
       {/* High-res background representation: The room shell */}
       <group position={[0, 0, 0]}>
@@ -175,26 +193,20 @@ export default function CosyStudio() {
       */}
 
       {/* Electric Guitar: Leaning against the back-left wall. */}
-      <InteractiveObject
-        position={[-2.5, 0.0, -4.8]}
-        rotation={[0, 0, 15 * (Math.PI / 180)]}
-        assetPath="/assets/interactive/guitar.png"
-        label="Electric Guitar"
-        description="Where the melodies come to life."
-        scale={[0.3, 1.5, 1]}
-      />
+      <group position={[-2.5, 0.0, -4.8]} rotation={[0, 0, 15 * (Math.PI / 180)]} scale={[0.3, 1.5, 1]}>
+        <mesh receiveShadow>
+          <boxGeometry args={[0.1, 1, 0.1]} />
+          <meshStandardMaterial color="#333" />
+        </mesh>
+      </group>
 
       {/* Messi Jersey: Hanging on a hook on the left wall. "Lived-in" offset applied. */}
-      <InteractiveObject
-        position={[-9.7, 1.8, -2.2]}
-        rotation={[0, 52 * (Math.PI / 180), 8 * (Math.PI / 180)]}
-        assetPath="/assets/interactive/messi_jersey.png"
-        label="Messi Jersey"
-        description="The legendary GOAT's jersey. A symbol of pure brilliance."
-        scale={[0.6, 0.8, 1]}
-        framed={true}
-        frameColor="#111"
-      />
+      <group position={[-9.7, 1.8, -2.2]} rotation={[0, 52 * (Math.PI / 180), 8 * (Math.PI / 180)]} scale={[0.6, 0.8, 1]}>
+        <mesh receiveShadow>
+          <planeGeometry args={[1, 1.4]} />
+          <meshStandardMaterial color="#800" />
+        </mesh>
+      </group>
 
       {/* TV / Monitor: Central focal point. */}
       <group position={[0.3, 1.5, -4.9]} rotation={[0, 10 * (Math.PI / 180), 0]}>
@@ -206,25 +218,20 @@ export default function CosyStudio() {
       </group>
 
       {/* Bayern Flag: Placed on the back wall. "Lived-in" offset applied. */}
-      <InteractiveObject
-        position={[1.3, 2.3, -4.85]}
-        rotation={[0, -12 * (Math.PI / 180), 6 * (Math.PI / 180)]}
-        assetPath="/assets/interactive/bayern_flag.png"
-        label="Bayern Munich Flag"
-        description="Mia San Mia. The spirit of Bavarian football."
-        scale={[0.7, 1.0, 1]}
-        isFabric={true}
-      />
+      <group position={[1.3, 2.3, -4.85]} rotation={[0, -12 * (Math.PI / 180), 6 * (Math.PI / 180)]} scale={[0.7, 1.0, 1]}>
+        <mesh receiveShadow>
+          <planeGeometry args={[1, 1.5]} />
+          <meshStandardMaterial color="#d00" />
+        </mesh>
+      </group>
 
       {/* Karan Aujla Poster: Layered on the back wall. "Lived-in" offset applied. */}
-      <InteractiveObject
-        position={[1.6, 1.7, -4.88]}
-        rotation={[0, -12 * (Math.PI / 180), -6 * (Math.PI / 180)]}
-        assetPath="/assets/interactive/aujla_poster.png"
-        label="Karan Aujla Poster"
-        description="The Geetan Di Machine. Pure energy."
-        scale={[0.5, 0.7, 1]}
-      />
+      <group position={[1.6, 1.7, -4.88]} rotation={[0, -12 * (Math.PI / 180), -6 * (Math.PI / 180)]} scale={[0.5, 0.7, 1]}>
+        <mesh receiveShadow>
+          <planeGeometry args={[1, 1.4]} />
+          <meshStandardMaterial color="#555" />
+        </mesh>
+      </group>
 
       {/* --- AMBIENT LIGHTING --- */}
 

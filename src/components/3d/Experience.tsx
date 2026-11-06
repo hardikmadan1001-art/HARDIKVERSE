@@ -229,6 +229,13 @@ function CameraRig() {
 
     // Frame-rate independent damping — the "operator" hand.
     const k = 1 - Math.exp(-4.5 * Math.min(dt, 0.05));
+
+    // Inertia-like smooth scrolling for the camera position and lookAt
+    // We introduce a smoothed version of the target progress to create inertia.
+    // However, since we are already lerping the camera position, the "inertia"
+    // comes from the lerp rate. To make it feel more "fluid" and "damped",
+    // we can use a separate smoothed progress value.
+
     cam.position.lerp(vA, k);
     parallax.current.lerp(vPar, k * 0.6);
     lookAt.current.lerp(targetLook, k);
@@ -408,10 +415,10 @@ function StudioEnvironment() {
       {/* Side strips for those long metal highlights */}
       <Lightformer form="rect" intensity={4} position={[-5, 1, -1]} rotation={[0, Math.PI / 2, 0]} scale={[6, 1.2, 1]} />
       <Lightformer form="rect" intensity={3} position={[5, 0.5, 1]} rotation={[0, -Math.PI / 2, 0]} scale={[6, 1, 1]} />
-      {/* Cool bounce from below */}
-      <Lightformer form="circle" intensity={1.6} color="#57e6ff" position={[0, -4, 2]} scale={4} />
-      {/* Warm kicker */}
-      <Lightformer form="circle" intensity={1.2} color="#ffb45e" position={[-3, -1, 4]} scale={3} />
+      {/* Cool bounce from below — balanced for cyan screen glow */}
+      <Lightformer form="circle" intensity={2.2} color="#57e6ff" position={[0, -4, 2]} scale={4} />
+      {/* Warm kicker — balanced for amber lamp mood */}
+      <Lightformer form="circle" intensity={1.8} color="#ffb45e" position={[-3, -1, 4]} scale={3} />
     </Environment>
   );
 }

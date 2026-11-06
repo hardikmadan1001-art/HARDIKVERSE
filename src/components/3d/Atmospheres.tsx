@@ -633,6 +633,14 @@ const HEX_SPREAD = 3.6;
 export function GrapheneLattice() {
   const ref = useRef<THREE.Points>(null);
   const matRef = useRef<THREE.PointsMaterial>(null);
+
+  const [isMounted, setIsMounted] = useState(false);
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) return null;
+
   const seeds = useMemo(() => {
     const rand = mulberry32(7777);
     return Array.from({ length: HEX_COUNT }, () => ({
@@ -757,6 +765,14 @@ const SPARK_COUNT = 160;
 export function AssemblySparks() {
   const ref = useRef<THREE.Points>(null);
   const matRef = useRef<THREE.PointsMaterial>(null);
+
+  const [isMounted, setIsMounted] = useState(false);
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) return null;
+
   const seeds = useMemo(() => {
     const rand = mulberry32(9123);
     return Array.from({ length: SPARK_COUNT }, () => ({
@@ -975,6 +991,14 @@ const EMBER_COUNT = 120;
 export function OriginEmbers() {
   const ref = useRef<THREE.Points>(null);
   const matRef = useRef<THREE.PointsMaterial>(null);
+
+  const [isMounted, setIsMounted] = useState(false);
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) return null;
+
   const seeds = useMemo(() => {
     const rand = mulberry32(3333);
     return Array.from({ length: EMBER_COUNT }, () => ({
@@ -1102,6 +1126,14 @@ const DECAY_COUNT = 100;
 export function OvertonesViz() {
   const ref = useRef<THREE.Points>(null);
   const matRef = useRef<THREE.PointsMaterial>(null);
+
+  const [isMounted, setIsMounted] = useState(false);
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) return null;
+
   const seeds = useMemo(() => {
     const rand = mulberry32(6666);
     return Array.from({ length: DECAY_COUNT }, () => ({
