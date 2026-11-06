@@ -11,6 +11,17 @@ import { InteractiveObject } from "./InteractiveObject";
  * VideoTexture handles the loading and updating of a video element
  * to be used as a texture on a 3D mesh.
  */
+
+function mulberry32(seed: number) {
+  return () => {
+    seed |= 0;
+    seed = (seed + 0x6d2b79f5) | 0;
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ 0;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
 function VideoScreen() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const textureRef = useRef<THREE.VideoTexture | null>(null);
@@ -45,7 +56,7 @@ function VideoScreen() {
     const flicker = () => {
       if (materialRef.current) {
         // Randomly vary intensity between 0.9 and 1.1 for a subtle flicker
-        const intensity = 0.9 + Math.random() * 0.2;
+        const intensity = 0.9 + mulberry32(10)() * 0.2;
         materialRef.current.color.setRGB(intensity, intensity, intensity);
       }
       animationFrameId = requestAnimationFrame(flicker);
@@ -108,15 +119,15 @@ export default function CosyStudio() {
           const originalRot = child.rotation.clone();
 
           child.position.set(
-            originalPos.x + (Math.random() - 0.5) * 2,
+            originalPos.x + (mulberry32(20)() - 0.5) * 2,
             originalPos.y + 10,
-            originalPos.z + (Math.random() - 0.5) * 2
+            originalPos.z + (mulberry32(21)() - 0.5) * 2
           );
 
           child.rotation.set(
-            Math.random() * 0.5,
-            Math.random() * 0.5,
-            Math.random() * 0.5
+            mulberry32(30)() * 0.5,
+            mulberry32(31)() * 0.5,
+            mulberry32(32)() * 0.5
           );
 
           gsap.to(child.position, {
@@ -143,7 +154,7 @@ export default function CosyStudio() {
 
   return (
     <group ref={groupRef} position={[0, 0, 0]}>
-      <EffectComposer disableNormalPass>
+      <EffectComposer>
         <Bloom
           intensity={1.5}
           luminanceThreshold={0.1}

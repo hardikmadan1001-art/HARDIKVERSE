@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 
 /**
- * WinXpModal — a full CRT boot experience that gates the Aura Audio
+ * WinXpModal — a full CRT boot experience that gates the Hardikverse
  * immersive experience. Phosphor-green boot text, authentic Windows XP
  * window chrome, synthesized startup chime, and a pixel-dissolve exit
  * that transitions into the luxury dark-mode Act I scene.
@@ -17,6 +17,17 @@ type Props = {
 /* Synthesized retro startup chime — warm major chord with reverb tail */
 /* ------------------------------------------------------------------ */
 
+
+function mulberry32(seed: number) {
+  return () => {
+    seed |= 0;
+    seed = (seed + 0x6d2b79f5) | 0;
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ 0;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
 function playStartupChime(ctx: AudioContext) {
   try {
     // Reverb via convolver (simple impulse)
@@ -25,7 +36,7 @@ function playStartupChime(ctx: AudioContext) {
     for (let ch = 0; ch < 2; ch++) {
       const data = reverbBuffer.getChannelData(ch);
       for (let i = 0; i < reverbLength; i++) {
-        data[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+        data[i] = (mulberry32(42)() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
       }
     }
     const convolver = ctx.createConvolver();

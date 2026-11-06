@@ -85,8 +85,8 @@ export default function PreOrderModal() {
         <button
           onClick={close}
           data-hover
-          className="absolute right-4 top-4 flex h-8 w-8 items-center justify-center rounded-full border border-white/10 text-white/50 transition-colors hover:border-white/30 hover:text-white/80"
-          aria-label="Close"
+          className="absolute right-4 top-4 flex h-8 w-8 items-center justify-center rounded-full border border-white/10 text-white/50 transition-colors hover:border-white/30 hover:text-white/80 focus:outline-none focus:ring-2 focus:ring-white/30"
+          aria-label="Close pre-order modal"
         >
           <X className="h-4 w-4" />
         </button>
@@ -106,10 +106,11 @@ export default function PreOrderModal() {
         </div>
 
         {/* Tier selector */}
-        <div className="flex gap-2 mb-6">
+        <div className="flex gap-2 mb-6" role="radiogroup" aria-label="Pre-order tier">
           <button
             onClick={() => setActiveTier("deposit")}
-            className={`flex-1 rounded-lg border px-4 py-3 text-left transition-all ${
+            aria-pressed={activeTier === "deposit"}
+            className={`flex-1 rounded-lg border px-4 py-3 text-left transition-all focus:outline-none focus:ring-2 focus:ring-[#57e6ff]/50 ${
               activeTier === "deposit"
                 ? "border-[#57e6ff]/30 bg-[#57e6ff]/5"
                 : "border-white/10 hover:border-white/20"
@@ -124,7 +125,8 @@ export default function PreOrderModal() {
           </button>
           <button
             onClick={() => setActiveTier("waitlist")}
-            className={`flex-1 rounded-lg border px-4 py-3 text-left transition-all ${
+            aria-pressed={activeTier === "waitlist"}
+            className={`flex-1 rounded-lg border px-4 py-3 text-left transition-all focus:outline-none focus:ring-2 focus:ring-[#57e6ff]/50 ${
               activeTier === "waitlist"
                 ? "border-[#57e6ff]/30 bg-[#57e6ff]/5"
                 : "border-white/10 hover:border-white/20"
@@ -165,12 +167,14 @@ export default function PreOrderModal() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="your@email.com"
+                  aria-label="Email address for deposit reservation"
                   required
                   className="flex-1 rounded-lg border border-white/15 bg-white/5 px-4 py-2.5 text-sm text-white placeholder:text-white/30 focus:border-[#57e6ff]/40 focus:outline-none focus:ring-1 focus:ring-[#57e6ff]/20"
                 />
                 <button
                   type="submit"
-                  className="flex items-center gap-1.5 rounded-lg bg-[#57e6ff]/15 border border-[#57e6ff]/30 px-5 py-2.5 text-[11px] font-bold uppercase tracking-[0.2em] text-[#57e6ff] transition-all hover:bg-[#57e6ff]/25 hover:shadow-[0_0_20px_rgba(87,230,255,0.15)]"
+                  className="flex items-center gap-1.5 rounded-lg bg-[#57e6ff]/15 border border-[#57e6ff]/30 px-5 py-2.5 text-[11px] font-bold uppercase tracking-[0.2em] text-[#57e6ff] transition-all hover:bg-[#57e6ff]/25 hover:shadow-[0_0_20px_rgba(87,230,255,0.15)] focus:outline-none focus:ring-2 focus:ring-[#57e6ff]/50"
+                  aria-label="Submit deposit reservation"
                 >
                   <ArrowRight className="h-3.5 w-3.5" />
                 </button>

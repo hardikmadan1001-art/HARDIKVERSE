@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
  * Now features a pulsing cyan glow, refined typography,
  * and a smooth fade-out that dissolves into the CRT boot screen.
  */
-export default function AuraLoader() {
+export default function WorldLoader() {
   const [hidden, setHidden] = useState(false);
 
   useEffect(() => {
@@ -50,7 +50,7 @@ export default function AuraLoader() {
             textShadow: "0 0 30px rgba(87, 230, 255, 0.3)",
           }}
         >
-          Aura
+          Hardikverse
         </p>
         <div className="aura-loader-bar" />
         <p className="text-[9px] uppercase tracking-[0.4em] text-white/25">

@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useRef } from "react";
 import * as THREE from "three";
-import { Text, Image } from "@react-three/drei";
+import { Text, Image, useTexture } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import { FabricMaterial } from "./FabricMaterial";
 
@@ -48,7 +48,7 @@ export function InteractiveObject({
   const fabricMaterial = useMemo(() => {
     if (!isFabric) return null;
 
-    const texture = new THREE.TextureLoader().load(assetPath);
+    const texture = useTexture(assetPath);
     return new THREE.ShaderMaterial({
       uniforms: {
         uTime: { value: 0 },
@@ -122,9 +122,9 @@ export function InteractiveObject({
       {isPaper ? (
         <mesh castShadow receiveShadow>
           {/* Use PlaneGeometry with segments to allow for bending/curling */}
-          <planeGeometry args={[1, 1], 32, 32} />
+          <planeGeometry args={[1, 1, 32, 32]} />
           <meshStandardMaterial
-            map={new THREE.TextureLoader().load(assetPath)}
+            map={useTexture(assetPath)}
             transparent
             roughness={1}
             metalness={0}
@@ -155,14 +155,14 @@ export function InteractiveObject({
         </mesh>
       ) : isFabric ? (
         <mesh castShadow receiveShadow>
-          <planeGeometry args={[1, 1], 64, 64} />
+          <planeGeometry args={[1, 1, 64, 64]} />
           <primitive object={fabricMaterial!} />
         </mesh>
       ) : isGlossy ? (
         <mesh castShadow receiveShadow>
           <planeGeometry args={[1, 1]} />
           <meshStandardMaterial
-            map={new THREE.TextureLoader().load(assetPath)}
+            map={useTexture(assetPath)}
             transparent
             roughness={0.05}
             metalness={0.9}
@@ -190,7 +190,6 @@ export function InteractiveObject({
           transparent
           castShadow
           receiveShadow
-          normalMap={normalMap}
           color={colorGrading ? new THREE.Color(`rgb(${colorGrading.r * 255}, ${colorGrading.g * 255}, ${colorGrading.b * 255})`) : "white"}
         />
       )}

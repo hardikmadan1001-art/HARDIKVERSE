@@ -74,7 +74,10 @@ export default function HUDViewportMode() {
       <button
         data-hover
         onClick={() => setExpanded((x) => !x)}
-        className={`flex items-center gap-2 rounded-lg border px-3 py-2 text-[9px] uppercase tracking-[0.3em] backdrop-blur-xl transition-all duration-300 ${
+        aria-expanded={expanded}
+        aria-haspopup="true"
+        aria-label={`Viewport mode: ${MODES.find((m) => m.key === active)?.label ?? "Studio"}`}
+        className={`flex items-center gap-2 rounded-lg border px-3 py-2 text-[9px] uppercase tracking-[0.3em] backdrop-blur-xl transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-[#57e6ff]/50 ${
           expanded
             ? "border-[#57e6ff]/30 bg-black/60"
             : "border-white/15 bg-black/40 hover:border-white/25"
@@ -103,7 +106,8 @@ export default function HUDViewportMode() {
               key={mode.key}
               data-hover
               onClick={() => select(mode.key)}
-              className={`flex items-center gap-3 w-full px-4 py-2.5 text-left transition-all ${
+              aria-pressed={active === mode.key}
+              className={`flex items-center gap-3 w-full px-4 py-2.5 text-left transition-all focus:outline-none focus:ring-2 focus:ring-[#57e6ff]/50 ${
                 active === mode.key
                   ? "bg-[#57e6ff]/10 text-[#57e6ff]"
                   : "text-white/55 hover:bg-white/5 hover:text-white/80"

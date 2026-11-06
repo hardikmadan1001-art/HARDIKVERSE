@@ -489,7 +489,7 @@ export default function Experience() {
     if (typeof window === "undefined") return false;
     return (
       navigator.hardwareConcurrency <= 4 ||
-      (navigator.deviceMemory && navigator.deviceMemory <= 4) ||
+      ( (navigator as any).deviceMemory && (navigator as any).deviceMemory <= 4 ) ||
       /Mobi|Android/i.test(navigator.userAgent)
     );
   });

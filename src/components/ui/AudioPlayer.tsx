@@ -288,8 +288,8 @@ export default function AudioPlayer({ enabled = false }: Props) {
         >
           <button
             onClick={togglePlay}
-            className="flex h-9 w-9 items-center justify-center rounded-full text-white/90 transition-colors hover:bg-white/10"
-            aria-label={playing ? "Pause" : "Play"}
+            className="flex h-9 w-9 items-center justify-center rounded-full text-white/90 transition-colors hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white/30"
+            aria-label={playing ? "Pause audio" : "Play audio"}
           >
             {playing ? (
               <Pause className="h-3.5 w-3.5" fill="currentColor" />
@@ -336,7 +336,8 @@ export default function AudioPlayer({ enabled = false }: Props) {
           <button
             onClick={() => setExpanded((x) => !x)}
             aria-label="Toggle volume control"
-            className="hidden h-9 w-9 items-center justify-center rounded-full text-white/70 transition-colors hover:bg-white/10 sm:flex"
+            aria-expanded={expanded}
+            className="hidden h-9 w-9 items-center justify-center rounded-full text-white/70 transition-colors hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white/30 sm:flex"
             title={expanded ? "Hide volume" : "Show volume"}
           >
             <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
@@ -358,8 +359,8 @@ export default function AudioPlayer({ enabled = false }: Props) {
 
           <button
             onClick={toggleMute}
-            aria-label={muted ? "Unmute" : "Mute"}
-            className="flex h-9 w-9 items-center justify-center rounded-full text-white/70 transition-colors hover:bg-white/10"
+            aria-label={muted ? "Unmute audio" : "Mute audio"}
+            className="flex h-9 w-9 items-center justify-center rounded-full text-white/70 transition-colors hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white/30"
           >
             {muted || !playing ? (
               <VolumeX className="h-3.5 w-3.5" />

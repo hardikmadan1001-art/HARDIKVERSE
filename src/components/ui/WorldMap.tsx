@@ -109,7 +109,7 @@ export default function WorldMap() {
           }`}
           style={{
             background: `radial-gradient(circle, #f2e8cf 0%, #d4c3a3 100%)`,
-            backgroundImage: `url("https://www.transparenttextures.com/patterns/parchment.png"), radial-gradient(circle, #f2e8cf 0%, #d4c3a3 100%)`,
+            backgroundImage: `radial-gradient(circle, #f2e8cf 0%, #d4c3a3 100%)`,
             border: "12px solid #8b7355",
             boxShadow: "0 0 50px rgba(0,0,0,0.5), inset 0 0 100px rgba(139,115,85,0.3)"
           }}

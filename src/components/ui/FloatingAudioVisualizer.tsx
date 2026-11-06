@@ -63,7 +63,7 @@ export default function FloatingAudioVisualizer({ active = false }: Props) {
           value = freqData[idx] / 255;
         } else {
           // Fallback: gentle ambient animation
-          const t = Date.now() / 1000;
+          const t = timestamp / 1000;
           value = (30 + Math.sin(t * 1.5 + i * 0.8) * 20 + Math.sin(t * 2.3 + i * 1.2) * 10) / 255;
         }
 

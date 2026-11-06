@@ -1,0 +1,2640 @@
+[      44ms] [ERROR] ./src/components/ui/WinXpModal.tsx:28:34
+Error: Expected ',', got 'ident'
+  26 |       const data = reverbBuffer.getChannelData(ch);
+  27 |       for (let i = 0; i < reverbLength; i++) {
+> 28 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  29 |       }
+  30 |     }
+  31 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[     143ms] [ERROR] ./src/components/ui/WinXpModal.tsx:28:34
+Error: Expected ',', got 'ident'
+  26 |       const data = reverbBuffer.getChannelData(ch);
+  27 |       for (let i = 0; i < reverbLength; i++) {
+> 28 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  29 |       }
+  30 |     }
+  31 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[     147ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[     186ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0kla17-._.js:15093
+[     206ms] Error: ./src/components/ui/WinXpModal.tsx:28:34
+Error: Expected ',', got 'ident'
+  26 |       const data = reverbBuffer.getChannelData(ch);
+  27 |       for (let i = 0; i < reverbLength; i++) {
+> 28 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  29 |       }
+  30 |     }
+  31 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+    at <unknown> (Error: ./src/components/ui/WinXpModal.tsx:28:34)
+    at Object.getCompilationErrors (file:///Users/hardikmadan/.claude/worktrees/hardikverse-dev/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1417:59)
+    at DevBundlerService.getCompilationError (file:///Users/hardikmadan/.claude/worktrees/hardikverse-dev/node_modules/next/dist/server/lib/dev-bundler-service.js:59:55)
+    at DevServer.getCompilationError (file:///Users/hardikmadan/.claude/worktrees/hardikverse-dev/node_modules/next/dist/server/dev/next-dev-server.js:754:42)
+    at DevServer.findPageComponents (file:///Users/hardikmadan/.claude/worktrees/hardikverse-dev/node_modules/next/dist/server/dev/next-dev-server.js:724:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/hardikmadan/.claude/worktrees/hardikverse-dev/node_modules/next/dist/server/base-server.js:1828:26)
+[     205ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:756
+[     219ms] [ERROR] ./src/components/ui/WinXpModal.tsx:28:34
+Error: Expected ',', got 'ident'
+  26 |       const data = reverbBuffer.getChannelData(ch);
+  27 |       for (let i = 0; i < reverbLength; i++) {
+> 28 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  29 |       }
+  30 |     }
+  31 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[     281ms] [ERROR] ./src/components/ui/WinXpModal.tsx:28:34
+Error: Expected ',', got 'ident'
+  26 |       const data = reverbBuffer.getChannelData(ch);
+  27 |       for (let i = 0; i < reverbLength; i++) {
+> 28 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  29 |       }
+  30 |     }
+  31 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[     326ms] [ERROR] ./src/components/ui/WinXpModal.tsx:28:34
+Error: Expected ',', got 'ident'
+  26 |       const data = reverbBuffer.getChannelData(ch);
+  27 |       for (let i = 0; i < reverbLength; i++) {
+> 28 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  29 |       }
+  30 |     }
+  31 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[     362ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:756
+[     372ms] [ERROR] ./src/components/ui/WinXpModal.tsx:28:34
+Error: Expected ',', got 'ident'
+  26 |       const data = reverbBuffer.getChannelData(ch);
+  27 |       for (let i = 0; i < reverbLength; i++) {
+> 28 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  29 |       }
+  30 |     }
+  31 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[     410ms] [ERROR] ./src/components/ui/WinXpModal.tsx:28:34
+Error: Expected ',', got 'ident'
+  26 |       const data = reverbBuffer.getChannelData(ch);
+  27 |       for (let i = 0; i < reverbLength; i++) {
+> 28 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  29 |       }
+  30 |     }
+  31 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[     458ms] [ERROR] ./src/components/ui/WinXpModal.tsx:28:34
+Error: Expected ',', got 'ident'
+  26 |       const data = reverbBuffer.getChannelData(ch);
+  27 |       for (let i = 0; i < reverbLength; i++) {
+> 28 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  29 |       }
+  30 |     }
+  31 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[     505ms] [ERROR] ./src/components/ui/WinXpModal.tsx:28:34
+Error: Expected ',', got 'ident'
+  26 |       const data = reverbBuffer.getChannelData(ch);
+  27 |       for (let i = 0; i < reverbLength; i++) {
+> 28 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  29 |       }
+  30 |     }
+  31 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[     553ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[     601ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[     647ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[     693ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[     741ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[     789ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[     838ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[     889ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[     940ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[     979ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    1026ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    1073ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    1120ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    1159ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    1206ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    1254ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    1301ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    1348ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    1395ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    1441ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    1487ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    1534ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    1581ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    1627ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    1674ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    1719ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    1766ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    1813ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    1860ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    1907ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    1953ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2001ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2051ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2115ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2161ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2207ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2255ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2295ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2346ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2397ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2448ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2497ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2548ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2598ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2647ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2697ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2746ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2794ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2843ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2893ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2942ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2989ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3039ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3088ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3135ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3183ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3247ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3293ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3339ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3386ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3433ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3480ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3528ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3575ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3623ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3671ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3718ms] [ERROR] ./src/components/ui/WinXpModal.tsx:39:34
+Error: Expected ',', got 'ident'
+  37 |       const data = reverbBuffer.getChannelData(ch);
+  38 |       for (let i = 0; i < reverbLength; i++) {
+> 39 |         data[i] = (mulberry32(42)B() * 2 - 1) * Math.pow(1 - i / reverbLength, 2.5);
+     |                                  ^
+  40 |       }
+  41 |     }
+  42 |     const convolver = ctx.createConvolver();
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WinXpModal.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WinXpModal.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3805ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    3820ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    3900ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    3901ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    3901ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    3974ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    4071ms] [ERROR] React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Dust 1. useRef                     useRef
+2. useRef                     useRef
+3. useMemo                    useMemo
+4. useState                   useState
+5. useEffect                  useEffect
+6. undefined                  useContext
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[    4075ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[    4075ms] [WARNING] Autoplay prevented. Video will start on first interaction. AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    4080ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[    4082ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    4082ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    4082ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    4595ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    6145ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    6150ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    6210ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    6232ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    6348ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    6348ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    6348ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    6401ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    6510ms] [ERROR] React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Dust 1. useRef                     useRef
+2. useRef                     useRef
+3. useMemo                    useMemo
+4. useState                   useState
+5. useEffect                  useEffect
+6. undefined                  useContext
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[    6514ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[    6515ms] [WARNING] Autoplay prevented. Video will start on first interaction. AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    6524ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[    6527ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    6528ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    6528ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    7039ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    8893ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    8895ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    8930ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    8942ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    9022ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    9022ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    9076ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    9182ms] [ERROR] React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Dust 1. useRef                     useRef
+2. useRef                     useRef
+3. useMemo                    useMemo
+4. useState                   useState
+5. useEffect                  useEffect
+6. undefined                  useContext
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[    9185ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[    9186ms] [WARNING] Autoplay prevented. Video will start on first interaction. AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    9195ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[    9196ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    9196ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    9709ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   12378ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   12379ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   12431ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   12451ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   12556ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   12556ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   12609ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   12715ms] [ERROR] React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Dust 1. useRef                     useRef
+2. useRef                     useRef
+3. useMemo                    useMemo
+4. useState                   useState
+5. useEffect                  useEffect
+6. undefined                  useContext
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[   12718ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[   12719ms] [WARNING] Autoplay prevented. Video will start on first interaction. AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   12728ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[   12729ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   12729ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   13243ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   14419ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   14420ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   14495ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   14514ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   14596ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   14597ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   14669ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   14795ms] [ERROR] React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Dust 1. useRef                     useRef
+2. useRef                     useRef
+3. useMemo                    useMemo
+4. useState                   useState
+5. useEffect                  useEffect
+6. undefined                  useContext
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[   14799ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[   14799ms] [WARNING] Autoplay prevented. Video will start on first interaction. AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   14805ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[   14805ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   14806ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   15322ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   18350ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   18358ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   18404ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   18415ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   18460ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   18460ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   18523ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   18638ms] [ERROR] React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Dust 1. useRef                     useRef
+2. useRef                     useRef
+3. useMemo                    useMemo
+4. useState                   useState
+5. useEffect                  useEffect
+6. undefined                  useContext
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[   18641ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[   18642ms] [WARNING] Autoplay prevented. Video will start on first interaction. AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   18647ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[   18648ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   18648ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   19162ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   21985ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   21987ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   22042ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   22051ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   22111ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   22111ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   22179ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   22288ms] [ERROR] React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Dust 1. useRef                     useRef
+2. useRef                     useRef
+3. useMemo                    useMemo
+4. useState                   useState
+5. useEffect                  useEffect
+6. undefined                  useContext
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[   22292ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[   22293ms] [WARNING] Autoplay prevented. Video will start on first interaction. AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   22298ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[   22298ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   22298ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   22811ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   25704ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   25712ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   25760ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   25782ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   25863ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   25863ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   25919ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   26023ms] [ERROR] React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Dust 1. useRef                     useRef
+2. useRef                     useRef
+3. useMemo                    useMemo
+4. useState                   useState
+5. useEffect                  useEffect
+6. undefined                  useContext
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[   26027ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[   26028ms] [WARNING] Autoplay prevented. Video will start on first interaction. AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   26036ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[   26038ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   26038ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   26556ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   28780ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   28781ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   28824ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   28832ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   28889ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   28889ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   28953ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   29057ms] [ERROR] React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Dust 1. useRef                     useRef
+2. useRef                     useRef
+3. useMemo                    useMemo
+4. useState                   useState
+5. useEffect                  useEffect
+6. undefined                  useContext
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[   29061ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[   29062ms] [WARNING] Autoplay prevented. Video will start on first interaction. AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   29066ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[   29067ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   29067ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   29581ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   31644ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   31646ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   31697ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   31711ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   31760ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   31761ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   31824ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   31928ms] [ERROR] React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Dust 1. useRef                     useRef
+2. useRef                     useRef
+3. useMemo                    useMemo
+4. useState                   useState
+5. useEffect                  useEffect
+6. undefined                  useContext
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[   31931ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[   31932ms] [WARNING] Autoplay prevented. Video will start on first interaction. AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   31936ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[   31937ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   31937ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   32078ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   32080ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   32122ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   32132ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   32255ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   32255ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   32309ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   32392ms] [ERROR] React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Dust 1. useRef                     useRef
+2. useRef                     useRef
+3. useMemo                    useMemo
+4. useState                   useState
+5. useEffect                  useEffect
+6. undefined                  useContext
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[   32396ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[   32396ms] [WARNING] Autoplay prevented. Video will start on first interaction. AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   32413ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[   32415ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   32415ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   32929ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  104292ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  104293ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  104348ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  104364ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  104411ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  104411ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  104472ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  104590ms] [ERROR] React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Dust 1. useRef                     useRef
+2. useRef                     useRef
+3. useMemo                    useMemo
+4. useState                   useState
+5. useEffect                  useEffect
+6. undefined                  useContext
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  104593ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[  104594ms] [WARNING] Autoplay prevented. Video will start on first interaction. AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  104599ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[  104599ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  104599ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  105112ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  105338ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  105341ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  105394ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  105404ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  105449ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  105449ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  105513ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  105618ms] [ERROR] React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Dust 1. useRef                     useRef
+2. useRef                     useRef
+3. useMemo                    useMemo
+4. useState                   useState
+5. useEffect                  useEffect
+6. undefined                  useContext
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  105621ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[  105622ms] [WARNING] Autoplay prevented. Video will start on first interaction. AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  105627ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[  105627ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  105627ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  106141ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  107637ms] [ERROR] ./src/components/3d/Experience.tsx:494:5
+Error: Expression expected
+  492 |       (navigator as any).deviceMemory && (navigator as any).deviceMemory <= 4) ||
+  493 |       /Mobi|Android/i.test(navigator.userAgent)
+> 494 |     );
+      |     ^
+  495 |   });
+  496 |
+  497 |   // One global ScrollTrigger writes progress into the mutable store.
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/3d/Experience.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/3d/Experience.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  107705ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  114766ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  114771ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  114811ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  114823ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  114904ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  114904ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  114957ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  115079ms] [ERROR] React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Dust 1. useRef                     useRef
+2. useRef                     useRef
+3. useMemo                    useMemo
+4. useState                   useState
+5. useEffect                  useEffect
+6. undefined                  useContext
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  115083ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[  115083ms] [WARNING] Autoplay prevented. Video will start on first interaction. AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  115092ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[  115093ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  115094ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  115609ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776

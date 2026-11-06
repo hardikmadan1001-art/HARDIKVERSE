@@ -15,44 +15,42 @@ const grotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "AURA One — Hear Everything",
+  title: "HARDIKVERSE | An Interactive World",
   description:
-    "Aura One. An interactive engineering film for the future of wireless audio. Graphene drivers, 48-hour playback, 3 nm silicon.",
+    "Enter the personal world of Hardik Madan. A curated experience of creativity, projects, and passion.",
   keywords: [
-    "Aura",
-    "Aura One",
-    "wireless earbuds",
-    "ANC",
-    "graphene driver",
-    "spatial audio",
-    "Aura Audio",
+    "Hardik Madan",
+    "Hardikverse",
+    "Interactive Portfolio",
+    "3D Experience",
+    "Creative Developer",
   ],
-  authors: [{ name: "Aura Audio" }],
+  authors: [{ name: "Hardik Madan" }],
   openGraph: {
-    title: "AURA One — The future of wireless audio",
+    title: "HARDIKVERSE",
     description:
-      "An interactive engineering film. Eleven grams. Forty-eight hours. Three nanometres. Pre-order opens spring 2027.",
+      "Enter the personal world of Hardik Madan. A curated experience of creativity, projects, and passion.",
     type: "website",
-    siteName: "AURA",
+    siteName: "Hardikverse",
     images: [
       {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "AURA One — Hear Everything",
+        alt: "HARDIKVERSE — An Interactive World",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AURA One",
+    title: "HARDIKVERSE",
     description:
-      "Eleven grams. Forty-eight hours. Three nanometres. Pre-order opens spring 2027.",
+      "Enter the personal world of Hardik Madan. A curated experience of creativity, projects, and passion.",
     images: ["/og.png"],
-    creator: "@auraaudio",
+    creator: "@hardikmadan",
   },
   alternates: {
-    canonical: "https://aura.audio/",
+    canonical: "https://hardikverse.com/",
   },
   robots: {
     index: true,

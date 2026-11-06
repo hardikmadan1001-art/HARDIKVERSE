@@ -270,7 +270,7 @@ export function NoiseField() {
       s.r -= d * s.speed * trebleChaos;
       if (s.r < 1.15) {
         // The point reached the microphone shell — cancelled.
-        s.r = 6.5 + Math.random() * 1.5;
+        s.r = 6.5 + mulberry32(99)() * 1.5;
       }
       positions[i * 3] = s.r * Math.sin(s.phi) * Math.cos(s.theta);
       positions[i * 3 + 1] = s.r * Math.cos(s.phi);
@@ -1036,7 +1036,7 @@ export function OriginEmbers() {
       positions[i * 3 + 1] += s.driftY * d;
       if (positions[i * 3 + 1] > 4 || Math.abs(positions[i * 3]) > 6) {
         positions[i * 3] = s.x;
-        positions[i * 3 + 1] = -3 - Math.random() * 2;
+        positions[i * 3 + 1] = -3 - mulberry32(101)() * 2;
         positions[i * 3 + 2] = s.z;
       }
     });

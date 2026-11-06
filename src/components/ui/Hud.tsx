@@ -77,7 +77,7 @@ export default function Hud() {
         className="fixed left-6 top-6 z-40 mix-blend-difference md:left-10 md:top-10"
       >
         <p className="font-display text-lg font-bold uppercase tracking-[0.3em]">
-          Aura<span className="align-super text-[9px]">®</span>
+          Hardik<span className="text-white/60">Verse</span>
         </p>
       </button>
 

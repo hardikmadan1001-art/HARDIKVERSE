@@ -1,0 +1,40 @@
+- generic [ref=f20e1]:
+  - generic [active]:
+    - generic [ref=f20e4]:
+      - generic [ref=f20e5]:
+        - navigation [ref=f20e7]:
+          - button [disabled] [ref=f20e8]:
+            - img "previous" [ref=f20e9]
+          - generic [ref=f20e11]:
+            - generic [ref=f20e12]: 1/
+            - generic [ref=f20e13]: "1"
+          - button [disabled] [ref=f20e14]:
+            - img "next" [ref=f20e15]
+        - link "Next.js 16.3.2 (stale) Turbopack" [ref=f20e18] [cursor=pointer]:
+          - /url: https://nextjs.org/docs/messages/version-staleness
+          - generic "There is a newer version (16.4.5) available, upgrade recommended!" [ref=f20e21]: Next.js 16.3.2 (stale)
+          - generic [ref=f20e22]: Turbopack
+      - dialog "Runtime ReferenceError" [ref=f20e24]:
+        - generic [ref=f20e29]:
+          - generic [ref=f20e30]:
+            - generic [ref=f20e31]: Runtime ReferenceError
+            - generic [ref=f20e33]:
+              - button "Copy Error Info" [ref=f20e34] [cursor=pointer]
+              - button "No related documentation found" [disabled] [ref=f20e37]
+              - button "Attach Node.js inspector" [ref=f20e40] [cursor=pointer]
+          - generic [ref=f20e49]: AuraLoader is not defined
+    - generic [ref=f20e56] [cursor=pointer]:
+      - button "Open Next.js Dev Tools" [ref=f20e57]
+      - generic [ref=f20e61]:
+        - button "Open issues overlay" [ref=f20e62]:
+          - generic [ref=f20e63]:
+            - generic [aria-hidden] [ref=f20e64]: "0"
+            - generic [ref=f20e65]: "1"
+          - generic [ref=f20e66]: Issue
+        - button "Collapse issues badge" [ref=f20e67]
+  - generic [ref=f20e71]:
+    - heading "This page couldn’t load" [level=1] [ref=f20e74]
+    - paragraph [ref=f20e75]: Reload to try again, or go back.
+    - generic [ref=f20e76]:
+      - button "Reload" [ref=f20e78] [cursor=pointer]
+      - button "Back" [ref=f20e79] [cursor=pointer]

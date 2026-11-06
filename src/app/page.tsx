@@ -8,7 +8,7 @@ import Hud from "@/components/ui/Hud";
 import CustomCursor from "@/components/ui/CustomCursor";
 import SettingsPanel from "@/components/ui/SettingsPanel";
 import ActWipe from "@/components/ui/ActWipe";
-import AuraLoader from "@/components/ui/AuraLoader";
+import WorldLoader from "@/components/ui/WorldLoader";
 import AudioPlayer from "@/components/ui/AudioPlayer";
 import WinXpModal from "@/components/ui/WinXpModal";
 import FinishSwitcher from "@/components/ui/FinishSwitcher";
@@ -70,7 +70,7 @@ export default function Home() {
 
   return (
     <main className="bg-black text-white selection:bg-white selection:text-black">
-      <AuraLoader />
+      <WorldLoader />
 
       {/* ---- Atmospheric layers ---- */}
       <div className="scanlines" aria-hidden />

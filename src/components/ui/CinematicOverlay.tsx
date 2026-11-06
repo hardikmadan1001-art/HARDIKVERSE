@@ -5,9 +5,16 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { SCENES, ACTS, sceneVh } from "@/lib/story";
 
-/* ------------------------------------------------------------------ */
-/* Reusable density components — every scene gets layers               */
-/* ------------------------------------------------------------------ */
+
+function mulberry32(seed: number) {
+  return () => {
+    seed |= 0;
+    seed = (seed + 0x6d2b79f5) | 0;
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ 0;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
 
 /** Cyan radial halo behind hero headlines. */
 function Halo({ className = "" }: { className?: string }) {
@@ -1153,8 +1160,8 @@ export default function CinematicOverlay() {
       /* ---------- Sound-reactive equalizer bars ---------- */
       el.querySelectorAll("[data-bar]").forEach((bar, i) => {
         gsap.to(bar, {
-          scaleY: () => 0.15 + Math.random() * 0.85,
-          duration: 0.35 + Math.random() * 0.55,
+          scaleY: () => 0.15 + (mulberry32(1)()) * 0.85,
+          duration: 0.35 + (mulberry32(2)()) * 0.55,
           ease: "sine.inOut",
           repeat: -1,
           yoyo: true,

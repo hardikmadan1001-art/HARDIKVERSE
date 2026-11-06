@@ -1,0 +1,84 @@
+[      78ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[      91ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[     154ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[     154ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[     254ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[     329ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/assets/interactive/guitar.png:0
+[     329ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/assets/interactive/messi_jersey.png:0
+[     331ms] [ERROR] Please enable the NormalPass in the EffectComposer in order to use SSAO. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[     331ms] [ERROR] Please enable the NormalPass in the EffectComposer in order to use SSAO. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[     382ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/assets/interactive/guitar.png:0
+[     620ms] Error: Could not load /assets/interactive/messi_jersey.png: undefined
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1272:48
+    at HTMLImageElement.onImageError (http://localhost:3000/_next/static/chunks/node_modules_three_build_three_core_18d0oq6.js:32632:26)
+[     626ms] Error: Could not load /assets/interactive/messi_jersey.png: undefined
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1272:48
+    at HTMLImageElement.onImageError (http://localhost:3000/_next/static/chunks/node_modules_three_build_three_core_18d0oq6.js:32632:26)
+[     627ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[     627ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    1143ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   16205ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   16206ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   16264ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   16279ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   16337ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   16337ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   16400ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   16521ms] [ERROR] React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Dust 1. useRef                     useRef
+2. useRef                     useRef
+3. useMemo                    useMemo
+4. useState                   useState
+5. useEffect                  useEffect
+6. undefined                  useContext
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[   16525ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[   16526ms] [WARNING] Autoplay prevented. Video will start on first interaction. AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   16530ms] Error: Rendered more hooks than during the previous render.
+    at xe (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9180:168)
+    at Object.useRef (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13574:47)
+    at exports.useRef (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:1977:36)
+    at useMutableCallback (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:121:175)
+    at useFrame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1227:17)
+    at Dust (http://localhost:3000/_next/static/chunks/src_components_3d_08ajjmu._.js:95:232)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:8269:165)
+    at Eh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12688:307)
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:12536:62
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_1us1scl._.js:5433:64)
+[   16531ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   16531ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   17045ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
