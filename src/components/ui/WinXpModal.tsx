@@ -17,14 +17,8 @@ type Props = {
 /* Synthesized retro startup chime — warm major chord with reverb tail */
 /* ------------------------------------------------------------------ */
 
-function playStartupChime() {
+function playStartupChime(ctx: AudioContext) {
   try {
-    const AC =
-      window.AudioContext ||
-      (window as unknown as { webkitAudioContext: typeof AudioContext })
-        .webkitAudioContext;
-    const ctx = new AC();
-
     // Reverb via convolver (simple impulse)
     const reverbLength = ctx.sampleRate * 1.2;
     const reverbBuffer = ctx.createBuffer(2, reverbLength, ctx.sampleRate);
@@ -55,6 +49,7 @@ function playStartupChime() {
       const osc = ctx.createOscillator();
       const gain = ctx.createGain();
       osc.type = "sine";
+      osc.frequency.value = freq;
       osc.detune.value = (i - 1.5) * 4;
 
       const t = now + delays[i];
@@ -194,7 +189,18 @@ export default function WinXpModal({ onDismiss }: Props) {
 
   const dismiss = useCallback(() => {
     if (phase === "closing" || phase === "done") return;
-    playStartupChime();
+
+    try {
+      const AC =
+        window.AudioContext ||
+        (window as unknown as { webkitAudioContext: typeof AudioContext })
+          .webkitAudioContext;
+      const ctx = new AC();
+      playStartupChime(ctx);
+    } catch (e) {
+      console.error("Audio playback failed", e);
+    }
+
     setPhase("closing");
     setTimeout(() => {
       setPhase("done");

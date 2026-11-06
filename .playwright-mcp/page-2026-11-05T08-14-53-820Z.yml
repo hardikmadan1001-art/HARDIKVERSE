@@ -1,0 +1,11 @@
+- generic [ref=f1e1]:
+  - link "nCrypt" [ref=f1e2] [cursor=pointer]:
+    - /url: /
+  - link "Events" [ref=f1e3] [cursor=pointer]:
+    - /url: events
+  - link "Discord" [ref=f1e4] [cursor=pointer]:
+    - /url: discord
+  - link "Brochure" [ref=f1e5] [cursor=pointer]:
+    - /url: brochure
+  - link "Register" [ref=f1e6] [cursor=pointer]:
+    - /url: register

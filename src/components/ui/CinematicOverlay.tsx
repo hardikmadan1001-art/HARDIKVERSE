@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { SCENES, ACTS, sceneVh } from "@/lib/story";
@@ -755,6 +755,14 @@ function SeamLightLeak() {
 
 /** Ascending particles during the Rise scene. */
 function RisingParticles() {
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) return null;
+
   const particles = Array.from({ length: 8 }).map((_, i) => ({
     left: `${10 + i * 9}%`,
     delay: i * 0.4,
@@ -788,6 +796,14 @@ function RisingParticles() {
 
 /** Convergence particles for Reassembly scene. */
 function ConvergingParticles() {
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) return <div className="absolute inset-0" />;
+
   return (
     <div aria-hidden className="pointer-events-none absolute inset-0">
       {Array.from({ length: 16 }).map((_, i) => {
@@ -916,6 +932,14 @@ function ProcessorDie() {
 
 /** Compass / orbit dial that rotates during the Orbit scene. */
 function CompassDial() {
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) return <div className="h-28 w-28" />;
+
   return (
     <svg viewBox="0 0 120 120" className="h-28 w-28" aria-hidden>
       <circle cx="60" cy="60" r="56" fill="none" stroke="rgba(255,255,255,0.2)" />
@@ -1254,22 +1278,24 @@ export default function CinematicOverlay() {
         <ActMark act={1} />
 
         {/* Floating ambient particles — "sound becoming visible" */}
-        <div aria-hidden className="pointer-events-none absolute inset-0 overflow-hidden">
-          {Array.from({ length: 20 }).map((_, i) => (
-            <span
-              key={i}
-              className="absolute rounded-full bg-[#57e6ff]/20"
-              style={{
-                width: `${2 + (i % 4)}px`,
-                height: `${2 + (i % 4)}px`,
-                left: `${5 + (i * 4.7) % 90}%`,
-                top: `${10 + (i * 7.3) % 80}%`,
-                animation: `floatSlow ${6 + (i % 5) * 2}s ease-in-out infinite`,
-                animationDelay: `${i * 0.3}s`,
-              }}
-            />
-          ))}
-        </div>
+        {mounted && (
+          <div aria-hidden className="pointer-events-none absolute inset-0 overflow-hidden">
+            {Array.from({ length: 20 }).map((_, i) => (
+              <span
+                key={i}
+                className="absolute rounded-full bg-[#57e6ff]/20"
+                style={{
+                  width: `${2 + (i % 4)}px`,
+                  height: `${2 + (i % 4)}px`,
+                  left: `${5 + (i * 4.7) % 90}%`,
+                  top: `${10 + (i * 7.3) % 80}%`,
+                  animation: `floatSlow ${6 + (i % 5) * 2}s ease-in-out infinite`,
+                  animationDelay: `${i * 0.3}s`,
+                }}
+              />
+            ))}
+          </div>
+        )}
 
         {/* Ambient glow orb */}
         <div

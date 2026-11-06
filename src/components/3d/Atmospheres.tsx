@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useRef } from "react";
+import { useMemo, useRef, useState, useEffect } from "react";
 import { useFrame } from "@react-three/fiber";
 import { Grid } from "@react-three/drei";
 import * as THREE from "three";
@@ -50,6 +50,13 @@ export function Dust() {
     }
     return arr;
   }, []);
+
+  const [isMounted, setIsMounted] = useState(false);
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) return null;
 
   useFrame(({ clock }) => {
     if (ref.current) ref.current.rotation.y = clock.elapsedTime * 0.01;
@@ -224,6 +231,14 @@ const NOISE_COUNT = 380;
 export function NoiseField() {
   const ref = useRef<THREE.Points>(null);
   const matRef = useRef<THREE.PointsMaterial>(null);
+
+  const [isMounted, setIsMounted] = useState(false);
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) return null;
+
   const seeds = useMemo(
     () => {
       const rand = mulberry32(4242);

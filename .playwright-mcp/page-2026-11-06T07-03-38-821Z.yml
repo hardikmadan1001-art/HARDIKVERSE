@@ -1,0 +1,40 @@
+- generic [ref=f7e1]:
+  - generic [active]:
+    - generic [ref=f7e4]:
+      - generic [ref=f7e5]:
+        - navigation [ref=f7e7]:
+          - button [disabled] [ref=f7e8]:
+            - img "previous" [ref=f7e9]
+          - generic [ref=f7e11]:
+            - generic [ref=f7e12]: 1/
+            - generic [ref=f7e13]: "1"
+          - button [disabled] [ref=f7e14]:
+            - img "next" [ref=f7e15]
+        - link "Next.js 16.3.2 (stale) Turbopack" [ref=f7e18] [cursor=pointer]:
+          - /url: https://nextjs.org/docs/messages/version-staleness
+          - generic "There is a newer version (16.4.5) available, upgrade recommended!" [ref=f7e21]: Next.js 16.3.2 (stale)
+          - generic [ref=f7e22]: Turbopack
+      - dialog "Runtime ReferenceError" [ref=f7e24]:
+        - generic [ref=f7e29]:
+          - generic [ref=f7e30]:
+            - generic [ref=f7e31]: Runtime ReferenceError
+            - generic [ref=f7e33]:
+              - button "Copy Error Info" [ref=f7e34] [cursor=pointer]
+              - button "No related documentation found" [disabled] [ref=f7e37]
+              - button "Attach Node.js inspector" [ref=f7e40] [cursor=pointer]
+          - generic [ref=f7e49]: useState is not defined
+    - generic [ref=f7e56] [cursor=pointer]:
+      - button "Open Next.js Dev Tools" [ref=f7e57]
+      - generic [ref=f7e61]:
+        - button "Open issues overlay" [ref=f7e62]:
+          - generic [ref=f7e63]:
+            - generic [aria-hidden] [ref=f7e64]: "0"
+            - generic [ref=f7e65]: "1"
+          - generic [ref=f7e66]: Issue
+        - button "Collapse issues badge" [ref=f7e67]
+  - generic [ref=f7e71]:
+    - heading "This page couldn’t load" [level=1] [ref=f7e74]
+    - paragraph [ref=f7e75]: Reload to try again, or go back.
+    - generic [ref=f7e76]:
+      - button "Reload" [ref=f7e78] [cursor=pointer]
+      - button "Back" [ref=f7e79] [cursor=pointer]

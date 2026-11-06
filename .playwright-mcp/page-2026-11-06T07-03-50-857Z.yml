@@ -1,0 +1,882 @@
+- generic [active] [ref=f11e1]:
+  - main [ref=f11e2]:
+    - generic [ref=f11e4]:
+      - paragraph [ref=f11e5]: Aura
+      - paragraph [ref=f11e7]: Preparing experience
+    - button "Back to top" [ref=f11e8]:
+      - paragraph [ref=f11e9]: Aura®
+    - button "Pre-Order" [ref=f11e11]
+    - generic [ref=f11e12]:
+      - generic [ref=f11e13]: ACT I
+      - generic [ref=f11e14]: "01"
+      - generic [ref=f11e16]: Overture
+    - generic [ref=f11e17]: 00%
+    - button "Open Settings" [ref=f11e18]
+    - generic [ref=f11e22]:
+      - generic [ref=f11e23]: "01"
+      - generic [ref=f11e24]:
+        - 'button "ACT I: The Silence Before Sound" [ref=f11e25]':
+          - generic: ACT I·The Silence Before Sound
+        - 'button "ACT II: A Thousand Failures" [ref=f11e27]':
+          - generic: ACT II·A Thousand Failures
+        - 'button "ACT III: Inside the Sound" [ref=f11e29]':
+          - generic: ACT III·Inside the Sound
+        - 'button "ACT IV: 1100 Iterations" [ref=f11e31]':
+          - generic: ACT IV·1100 Iterations
+        - 'button "ACT V: The Discovery" [ref=f11e33]':
+          - generic: ACT V·The Discovery
+        - 'button "ACT VI: The Vessel" [ref=f11e35]':
+          - generic: ACT VI·The Vessel
+        - 'button "ACT VII: Emergence" [ref=f11e37]':
+          - generic: ACT VII·Emergence
+        - 'button "ACT VIII: Acoustic Architecture" [ref=f11e39]':
+          - generic: ACT VIII·Acoustic Architecture
+        - 'button "ACT IX: Internal Components" [ref=f11e41]':
+          - generic: ACT IX·Internal Components
+        - 'button "ACT X: Sound Engineering" [ref=f11e43]':
+          - generic: ACT X·Sound Engineering
+        - 'button "ACT XI: Resonance" [ref=f11e45]':
+          - generic: ACT XI·Resonance
+        - 'button "ACT XII: Future of Listening" [ref=f11e47]':
+          - generic: ACT XII·Future of Listening
+      - generic [ref=f11e49]: "12"
+    - generic [ref=f11e53]:
+      - generic [ref=f11e54]:
+        - generic [aria-hidden]: Aura
+        - generic:
+          - generic: SYS
+          - text: Aura/01 · Reference Series
+        - generic:
+          - generic: LAT
+          - text: 0.08 ms
+        - generic:
+          - generic: FRQ
+          - text: 20 Hz – 20 kHz
+        - generic:
+          - generic: REV
+          - text: Prototype 1100
+        - generic [aria-hidden]: I
+        - generic [ref=f11e55]:
+          - generic [ref=f11e56]:
+            - paragraph [ref=f11e57]: Aura · Reference Series
+            - heading "S o u n d i s I n v i s i b l e ." [level=1] [ref=f11e58]:
+              - generic [ref=f11e59]:
+                - generic [ref=f11e60]: S
+                - generic [ref=f11e61]: o
+                - generic [ref=f11e62]: u
+                - generic [ref=f11e63]: "n"
+                - generic [ref=f11e64]: d
+                - generic [ref=f11e66]: i
+                - generic [ref=f11e67]: s
+              - generic [ref=f11e68]:
+                - generic [ref=f11e69]: I
+                - generic [ref=f11e70]: "n"
+                - generic [ref=f11e71]: v
+                - generic [ref=f11e72]: i
+                - generic [ref=f11e73]: s
+                - generic [ref=f11e74]: i
+                - generic [ref=f11e75]: b
+                - generic [ref=f11e76]: l
+                - generic [ref=f11e77]: e
+                - generic [ref=f11e78]: .
+          - paragraph [ref=f11e79]: Before there was a product, there was a question:what does silence look like when it listens back?
+          - generic [ref=f11e80]: Scroll to listen
+      - generic [ref=f11e101]:
+        - generic [aria-hidden]: Listen
+        - generic [aria-hidden]: I
+        - generic:
+          - generic: DOC
+          - text: Manifesto · v4 final
+        - generic [ref=f11e103]:
+          - paragraph [ref=f11e104]: Chapter Zero · The Question
+          - heading "Four years. Eleven hundred prototypes. One obsession." [level=2] [ref=f11e105]: Four years.Eleven hundred prototypes.One obsession.
+          - paragraph [ref=f11e106]: We dismantled every great headphone ever made. We measured their curves, mapped their failures, argued about their souls. Then we threw the drawings away and started from the air itself.
+          - generic [ref=f11e107]:
+            - generic [ref=f11e108]:
+              - paragraph [ref=f11e109]: Years
+              - paragraph [ref=f11e110]: "0"
+            - generic [ref=f11e111]:
+              - paragraph [ref=f11e112]: Prototypes
+              - paragraph [ref=f11e113]: "0"
+            - generic [ref=f11e114]:
+              - paragraph [ref=f11e115]: Compromises
+              - paragraph [ref=f11e116]: Zero
+          - generic [ref=f11e117]:
+            - paragraph [ref=f11e118]: Four-year arc
+            - generic [ref=f11e119]:
+              - generic [ref=f11e121]:
+                - generic [ref=f11e123]: "2019"
+                - generic [ref=f11e124]: Patent filed
+              - generic [ref=f11e125]:
+                - generic [ref=f11e127]: "2021"
+                - generic [ref=f11e128]: First graphene
+              - generic [ref=f11e129]:
+                - generic [ref=f11e131]: "2023"
+                - generic [ref=f11e132]: 1100 prototypes
+              - generic [ref=f11e133]:
+                - generic [ref=f11e135]: "2026"
+                - generic [ref=f11e136]: Aura One
+          - paragraph [ref=f11e137]: What follows is not a specification sheet.It is a film. And you are holding the projector.
+      - generic [ref=f11e138]:
+        - generic:
+          - generic: SIG
+          - text: Carrier detected
+        - generic:
+          - generic: AMP
+          - text: Gain +0.0 dB
+        - generic [aria-hidden]: I
+        - generic [ref=f11e139]:
+          - paragraph [ref=f11e140]: Somewhere in the dark · a frequency is forming
+          - paragraph [ref=f11e170]: Twenty hertz. Twenty thousand. Everything between.Keep scrolling — it is getting closer.
+      - generic [ref=f11e171]:
+        - generic [aria-hidden]: Spectrum
+        - generic [aria-hidden]: I
+        - generic [ref=f11e172]:
+          - paragraph [ref=f11e173]: Act I · The full spectrum, held to account
+          - img [aria-hidden] [ref=f11e174]:
+            - generic [ref=f11e176]:
+              - generic [ref=f11e177]: 20 Hz
+              - generic [ref=f11e178]: 11 mm
+              - generic [ref=f11e179]: −48 dB
+              - generic [ref=f11e180]: 20 kHz
+          - generic [ref=f11e181]:
+            - generic [ref=f11e182]:
+              - paragraph [ref=f11e183]: 0Hz
+              - paragraph [ref=f11e184]: Floor of hearing
+            - generic [ref=f11e185]:
+              - paragraph [ref=f11e186]: 0Hz
+              - paragraph [ref=f11e187]: Ceiling of hearing
+            - generic [ref=f11e188]:
+              - paragraph [ref=f11e189]: 0mm
+              - paragraph [ref=f11e190]: Driver diameter
+            - generic [ref=f11e191]:
+              - paragraph [ref=f11e192]:
+                - generic [ref=f11e193]: −0
+                - text: dB
+              - paragraph [ref=f11e194]: Noise erased
+          - paragraph [ref=f11e195]: Numbers are not the music. But they are how we kept ourselves honest while building it.
+      - generic [ref=f11e196]:
+        - generic [aria-hidden]: Genesis
+        - generic:
+          - generic: LOG
+          - text: Archive · 2019
+        - generic:
+          - generic: DAT
+          - text: 1,100 prototypes
+        - generic [aria-hidden]: II
+        - generic [ref=f11e198]:
+          - paragraph [ref=f11e199]: Act II · Where it began
+          - heading "It started with a broken pair." [level=2] [ref=f11e200]: It started witha broken pair.
+          - paragraph [ref=f11e201]: "2019. A drawer full of flagship earbuds, all failing the same test: do they disappear when you close your eyes? None did. So we took them apart. Measured every curve. Then threw the drawings away and started from the air itself."
+          - generic [ref=f11e202]:
+            - generic [ref=f11e203]:
+              - paragraph [ref=f11e204]: Year
+              - paragraph [ref=f11e205]: "2019"
+            - generic [ref=f11e206]:
+              - paragraph [ref=f11e207]: Destroyed
+              - paragraph [ref=f11e208]: 47 pairs
+            - generic [ref=f11e209]:
+              - paragraph [ref=f11e210]: Measurments
+              - paragraph [ref=f11e211]: 12,000+
+      - generic [ref=f11e212]:
+        - generic [aria-hidden]: Invisible
+        - generic [aria-hidden]: II
+        - generic [ref=f11e213]:
+          - generic [ref=f11e214]: Design principle 001
+          - blockquote [ref=f11e215]: The best technologyis the technologyyou forget is there.
+          - paragraph [ref=f11e216]: "Every engineering decision was measured against one question: does this disappear? If you can feel the earbud, we failed. If you can hear the technology, we failed. The goal is absence — pure, unmediated listening."
+          - generic [ref=f11e217]:
+            - paragraph [ref=f11e220]: Invisible fit
+            - paragraph [ref=f11e223]: Invisible latency
+            - paragraph [ref=f11e226]: Invisible weight
+      - generic [ref=f11e227]:
+        - generic [aria-hidden]: II
+        - generic [ref=f11e229]:
+          - paragraph [ref=f11e230]: The obsession
+          - heading "Eleven hundred iterations." [level=2] [ref=f11e231]: Eleven hundrediterations.
+          - paragraph [ref=f11e232]: Prototypes that melted. Prototypes that cracked. Prototypes that sounded perfect but weighed too much. Each failure taught us something the success never could.
+          - generic [ref=f11e233]:
+            - generic [ref=f11e234]:
+              - paragraph [ref=f11e235]: 1,100
+              - paragraph [ref=f11e236]: prototypes
+            - generic [ref=f11e237]:
+              - paragraph [ref=f11e238]: "47"
+              - paragraph [ref=f11e239]: flagships destroyed
+            - generic [ref=f11e240]:
+              - paragraph [ref=f11e241]: 12,000
+              - paragraph [ref=f11e242]: measurements
+            - generic [ref=f11e243]:
+              - paragraph [ref=f11e244]: "0"
+              - paragraph [ref=f11e245]: compromises
+      - generic [ref=f11e246]:
+        - generic [aria-hidden]: The Vessel
+        - generic:
+          - generic: OBJ
+          - text: 001 · Unidentified
+        - generic:
+          - generic: DST
+          - text: Closing
+        - generic:
+          - generic: SEAM
+          - text: Sealed
+        - generic [aria-hidden]: II
+        - generic [ref=f11e248]:
+          - paragraph [ref=f11e249]: Act II · First Materialisation
+          - heading "Something approaches." [level=2] [ref=f11e250]: Somethingapproaches.
+          - paragraph [ref=f11e251]: Not the product. Not yet. First its architecture — a vessel machined like an instrument case. It rises out of the dark with nothing to show you. Almost nothing.
+      - generic [ref=f11e252]:
+        - generic:
+          - generic: CAM
+          - text: Orbit · 14°/s
+        - generic:
+          - generic: LUM
+          - text: Key light rising
+        - generic [aria-hidden]: II
+        - generic [ref=f11e256]:
+          - heading "Watch it turn. It hides nothing." [level=2] [ref=f11e257]: Watch it turn.It hides nothing.
+          - paragraph [ref=f11e258]: A closed object in open space. Every face considered, every radius answered. The camera circles because confidence deserves study.
+          - generic [ref=f11e259]:
+            - generic [ref=f11e260]:
+              - paragraph [ref=f11e261]: Closed case only
+              - paragraph [ref=f11e262]: No reveal yet. Desire first.
+            - generic [ref=f11e263]: "01"
+          - generic [ref=f11e264]:
+            - generic [ref=f11e265]:
+              - paragraph [ref=f11e266]: Full orbital pass
+              - paragraph [ref=f11e267]: 360° of considered surface.
+            - generic [ref=f11e268]: "02"
+          - generic [ref=f11e269]:
+            - generic [ref=f11e270]:
+              - paragraph [ref=f11e271]: Shadow discipline
+              - paragraph [ref=f11e272]: Light is spent where it matters.
+            - generic [ref=f11e273]: "03"
+          - generic [ref=f11e274]:
+            - generic [ref=f11e275]:
+              - paragraph [ref=f11e276]: Silent approach
+              - paragraph [ref=f11e277]: It never announces itself.
+            - generic [ref=f11e278]: "04"
+      - generic [ref=f11e279]:
+        - generic:
+          - generic: SWP
+          - text: Light sweep active
+        - generic:
+          - generic: SUR
+          - text: Ra 0.2 µm finish
+        - generic [aria-hidden]: II
+        - generic [ref=f11e281]:
+          - paragraph [ref=f11e282]: Material interrogation
+          - heading "Light does the talking." [level=2] [ref=f11e283]: Light doesthe talking.
+          - paragraph [ref=f11e284]: One bar of light crosses the body. Watch the highlight travel the radius — this is how you judge metal without touching it.
+          - generic [ref=f11e285]:
+            - generic [ref=f11e286]:
+              - paragraph [ref=f11e287]: Billet
+              - paragraph [ref=f11e288]: 6061 Aluminium
+            - generic [ref=f11e289]:
+              - paragraph [ref=f11e290]: Coating
+              - paragraph [ref=f11e291]: DLC · 3 µm
+            - generic [ref=f11e292]:
+              - paragraph [ref=f11e293]: Seam force
+              - paragraph [ref=f11e294]: 0.4 N
+      - generic [ref=f11e295]:
+        - generic [aria-hidden]: Carved
+        - generic [aria-hidden]: II
+        - generic [ref=f11e296]:
+          - generic [ref=f11e297]:
+            - paragraph [ref=f11e298]: 41:00
+            - paragraph [ref=f11e299]: Minutes of machining per shell
+          - generic [ref=f11e300]:
+            - heading "Carved, not moulded." [level=2] [ref=f11e301]: Carved,not moulded.
+            - generic [ref=f11e302]:
+              - generic [ref=f11e303]:
+                - paragraph [ref=f11e304]: Single-billet aluminium
+                - paragraph [ref=f11e305]: CNC-milled for 41 minutes per shell.
+              - generic [ref=f11e306]: "01"
+            - generic [ref=f11e307]:
+              - generic [ref=f11e308]:
+                - paragraph [ref=f11e309]: Diamond-like coating
+                - paragraph [ref=f11e310]: Three microns of scratch-proof calm.
+              - generic [ref=f11e311]: "02"
+            - generic [ref=f11e312]:
+              - generic [ref=f11e313]:
+                - paragraph [ref=f11e314]: Magnetic seam
+                - paragraph [ref=f11e315]: Closes with a whisper at 0.4 newtons.
+              - generic [ref=f11e316]: "03"
+            - generic [ref=f11e317]:
+              - generic [ref=f11e318]:
+                - paragraph [ref=f11e319]: Hand-polished radius
+                - paragraph [ref=f11e320]: Every edge softened by a human hand.
+              - generic [ref=f11e321]: "04"
+      - generic [ref=f11e322]:
+        - generic [aria-hidden]: Graphene
+        - generic:
+          - generic: MAT
+          - text: Atomic lattice · 2D
+        - generic:
+          - generic: THK
+          - text: 3 µm diaphragm
+        - generic [aria-hidden]: IV
+        - generic [ref=f11e324]:
+          - paragraph [ref=f11e325]: Material I · The soul of the driver
+          - heading "One atom thick. Infinite resolve." [level=2] [ref=f11e326]: One atom thick.Infinite resolve.
+          - paragraph [ref=f11e327]: Graphene is carbon arranged in a single atomic sheet — stronger than steel, lighter than air, and rigid enough to push sound without bending. We grow it, peel it, and suspend it across a gold surround like a drum skin for music.
+          - generic [ref=f11e328]:
+            - generic [ref=f11e329]:
+              - paragraph [ref=f11e330]: Thickness
+              - paragraph [ref=f11e331]: 3 µm
+            - generic [ref=f11e332]:
+              - paragraph [ref=f11e333]: Tensile
+              - paragraph [ref=f11e334]: 130 GPa
+            - generic [ref=f11e335]:
+              - paragraph [ref=f11e336]: Weight
+              - paragraph [ref=f11e337]: 0.77 mg
+      - generic [ref=f11e414]:
+        - generic [aria-hidden]: IV
+        - generic [ref=f11e415]:
+          - generic [ref=f11e416]:
+            - paragraph [ref=f11e417]: Material II · The shell
+            - heading "Ceramic gloss. Fingerprint-proof." [level=2] [ref=f11e418]: Ceramic gloss.Fingerprint-proof.
+          - img [aria-hidden] [ref=f11e420]:
+            - generic [ref=f11e424]:
+              - generic [ref=f11e425]: Ra 0.2 µm
+              - generic [ref=f11e426]: 10H Mohs
+              - generic [ref=f11e427]: CLEARCOAT
+              - generic [ref=f11e428]: 0.08 ROUGHNESS
+          - paragraph [ref=f11e429]: A ceramic-gloss composite, vacuum-deposited in three layers. The surface rejects fingerprints, scratches, and time itself. Cold to the first touch. Warm after a minute. Always intentional.
+      - generic [ref=f11e430]:
+        - generic [aria-hidden]: Forged
+        - generic [aria-hidden]: IV
+        - generic [ref=f11e431]:
+          - img [aria-hidden] [ref=f11e433]:
+            - generic [ref=f11e438]:
+              - generic [ref=f11e439]: 6061-T6
+              - generic [ref=f11e440]: CNC · 41 MIN
+              - generic [ref=f11e441]: BILLET
+          - generic [ref=f11e442]:
+            - paragraph [ref=f11e443]: Material III · The case
+            - heading "Machined from a single billet." [level=2] [ref=f11e444]: Machined froma single billet.
+            - paragraph [ref=f11e445]: 6061-T6 aluminium. Forty-one minutes of CNC machining per case. Diamond-like coating at three microns. The seam closes at 0.4 newtons — a whisper, not a click.
+            - generic [ref=f11e446]:
+              - generic [ref=f11e447]:
+                - paragraph [ref=f11e448]: Alloy
+                - paragraph [ref=f11e449]: 6061-T6
+              - generic [ref=f11e450]:
+                - paragraph [ref=f11e451]: Coating
+                - paragraph [ref=f11e452]: DLC · 3 µm
+              - generic [ref=f11e453]:
+                - paragraph [ref=f11e454]: Recycled
+                - paragraph [ref=f11e455]: 71%
+      - generic [ref=f11e456]:
+        - generic:
+          - generic: SEAM
+          - text: Integrity · releasing
+        - generic:
+          - generic: PHO
+          - text: Photon leak 0.02 lm
+        - generic [aria-hidden]: III
+        - generic [ref=f11e458]:
+          - paragraph [ref=f11e459]: Seam integrity · releasing
+          - heading "Almost." [level=2] [ref=f11e460]
+          - paragraph [ref=f11e461]: A hairline of light escapes the lid. Inside — something breathing, something charging, something waiting for you. We will not show you everything. Not yet. Desire needs darkness to grow.
+      - generic [ref=f11e462]:
+        - generic [aria-hidden]: Awaken
+        - generic [aria-hidden]: III
+        - generic [ref=f11e463]:
+          - paragraph [ref=f11e464]: Interior illumination · engaged
+          - heading "Light finds what was made for it." [level=2] [ref=f11e465]: Light findswhat was madefor it.
+          - paragraph [ref=f11e466]: Two sculpted wells. A halo of charge light. The lid opens like a jewellery box that happens to contain the future of your hearing.
+          - paragraph [ref=f11e467]: Hold. Anticipation is a feature.
+      - generic [ref=f11e468]:
+        - generic:
+          - generic: CH-L
+          - text: Rising
+        - generic:
+          - generic: CH-R
+          - text: Standby · next
+        - generic [aria-hidden]: III
+        - generic [ref=f11e470]:
+          - paragraph [ref=f11e471]: Emergence · one at a time
+          - heading "They remember flight." [level=2] [ref=f11e472]: They rememberflight.
+          - paragraph [ref=f11e473]: The first lifts clear of its well. Then — a beat behind, on its own schedule — the second. No synchrony. Machines that rise like performers taking their cue.
+      - generic [ref=f11e474]:
+        - generic:
+          - generic: L
+          - text: Channel left
+        - generic:
+          - generic: R
+          - text: Channel right
+        - generic [aria-hidden]: III
+        - generic [ref=f11e475]:
+          - paragraph [ref=f11e476]: Stage VII · Two objects
+          - heading "Two instruments. One score." [level=2] [ref=f11e477]: Two instruments.One score.
+          - img [aria-hidden] [ref=f11e478]:
+            - generic [ref=f11e480]: "0"
+            - generic [ref=f11e481]:
+              - generic [ref=f11e483]: L
+              - generic [ref=f11e485]: R
+          - paragraph [ref=f11e486]: They drift apart until the air between them is unmistakable. Stereo is not a specification. It is distance, respected.
+          - generic [ref=f11e487]:
+            - generic [ref=f11e488]:
+              - paragraph [ref=f11e489]: Left
+              - paragraph [ref=f11e490]: Ch-L · Mirror
+            - generic [ref=f11e491]:
+              - paragraph [ref=f11e492]: Right
+              - paragraph [ref=f11e493]: Ch-R · Master
+      - generic [ref=f11e494]:
+        - generic:
+          - generic: EXP
+          - text: Aura One · Final
+        - generic:
+          - generic: WGT
+          - text: 11 g per bud
+        - generic [aria-hidden]: IV
+        - generic [ref=f11e495]:
+          - paragraph [ref=f11e496]: Act IV · The Reveal
+          - heading "Aura One." [level=2] [ref=f11e498]:
+            - generic [ref=f11e499]: Aura
+            - generic [ref=f11e500]: One.
+          - paragraph [ref=f11e501]: Eleven grams each. Every curve earning its place in the light. This is not an accessory. It is an instrument you happen to wear.
+          - paragraph [ref=f11e502]: This is the moment. Remember where you were.
+      - generic [ref=f11e503]:
+        - generic:
+          - generic: OSC
+          - text: Oscillator live
+        - generic:
+          - generic: THD
+          - text: Distortion < 0.08 %
+        - generic [aria-hidden]: IV
+        - generic [ref=f11e504]:
+          - paragraph [ref=f11e505]: Feature I · Acoustics
+          - heading "Sound, made physical." [level=2] [ref=f11e506]: Sound,made physical.
+          - paragraph [ref=f11e510]: You are inside the acoustic chamber. Twenty-micron waves roll past you — this is what 20Hz feels like. A graphene diaphragm so rigid it refuses to distort, even when the music begs it to.
+      - generic [ref=f11e511]:
+        - generic [aria-hidden]: Diaphragm
+        - generic [aria-hidden]: IV
+        - generic [ref=f11e512]:
+          - img [aria-hidden] [ref=f11e514]:
+            - generic [ref=f11e519]:
+              - generic [ref=f11e520]: 3 µm DIAPHRAGM
+              - generic [ref=f11e521]: GOLD SUSPENSION
+              - generic [ref=f11e522]: COIL
+          - generic [ref=f11e523]:
+            - paragraph [ref=f11e524]: Acoustic architecture · I
+            - heading "The driver is the argument." [level=2] [ref=f11e525]: The driveris the argument.
+            - paragraph [ref=f11e526]: An 11mm graphene diaphragm, three microns thick, suspended by a gold surround tuned like a violin bridge. It moves less than a micron — and that micron is where music lives.
+            - generic [ref=f11e527]:
+              - generic [ref=f11e528]:
+                - paragraph [ref=f11e529]: Diaphragm
+                - paragraph [ref=f11e530]: Graphene · 3 µm
+              - generic [ref=f11e531]:
+                - paragraph [ref=f11e532]: Surround
+                - paragraph [ref=f11e533]: Gold suspension
+              - generic [ref=f11e534]:
+                - paragraph [ref=f11e535]: Excursion
+                - paragraph [ref=f11e536]: < 1 micron
+      - generic [ref=f11e537]:
+        - generic [aria-hidden]: IV
+        - generic [ref=f11e538]:
+          - generic [ref=f11e539]: “
+          - blockquote [ref=f11e540]: We didn't build a speaker.We built a listener.
+          - paragraph [ref=f11e541]: Aura Acoustic Lab · Tuning notes · 2026
+      - generic [ref=f11e542]:
+        - generic [aria-hidden]: V
+        - generic [ref=f11e552]:
+          - paragraph [ref=f11e553]: Act V · Engineering Film
+          - heading "You have seen the face. Now meet the organs." [level=2] [ref=f11e554]: You have seen the face.Now meet the organs.
+          - paragraph [ref=f11e555]: Hold still. The shell will open along seams no eye can find, and everything inside will hold its position for inspection.
+      - generic [ref=f11e556]:
+        - generic [aria-hidden]: Deconstructed
+        - generic [ref=f11e557]:
+          - paragraph [ref=f11e558]: Every layer. Engineered.
+          - generic [ref=f11e559]:
+            - generic [ref=f11e561]:
+              - generic [ref=f11e562]: "01"
+              - paragraph [ref=f11e563]: "01"
+            - paragraph [ref=f11e564]: Outer Shell
+            - paragraph [ref=f11e565]: Ceramic-gloss composite
+          - generic [ref=f11e566]:
+            - generic [ref=f11e568]:
+              - generic [ref=f11e569]: "02"
+              - paragraph [ref=f11e570]: "02"
+            - paragraph [ref=f11e571]: Graphene Driver
+            - paragraph [ref=f11e572]: 11 mm diaphragm · 3 µm
+          - generic [ref=f11e573]:
+            - generic [ref=f11e575]:
+              - generic [ref=f11e576]: "03"
+              - paragraph [ref=f11e577]: "03"
+            - paragraph [ref=f11e578]: Acoustic Chamber
+            - paragraph [ref=f11e579]: Rear volume · bass tuned
+          - generic [ref=f11e580]:
+            - generic [ref=f11e582]:
+              - generic [ref=f11e583]: "04"
+              - paragraph [ref=f11e584]: "04"
+            - paragraph [ref=f11e585]: Battery Cell
+            - paragraph [ref=f11e586]: Steel-jacketed li-ion
+          - generic [ref=f11e587]:
+            - generic [ref=f11e589]:
+              - generic [ref=f11e590]: "05"
+              - paragraph [ref=f11e591]: "05"
+            - paragraph [ref=f11e592]: ANC Array
+            - paragraph [ref=f11e593]: Six-microphone hybrid
+          - generic [ref=f11e594]:
+            - generic [ref=f11e596]:
+              - generic [ref=f11e597]: "06"
+              - paragraph [ref=f11e598]: "06"
+            - paragraph [ref=f11e599]: Aura Silicon
+            - paragraph [ref=f11e600]: 3 nm processor
+          - generic [ref=f11e601]:
+            - generic [ref=f11e603]:
+              - generic [ref=f11e604]: "07"
+              - paragraph [ref=f11e605]: "07"
+            - paragraph [ref=f11e606]: Charging Contacts
+            - paragraph [ref=f11e607]: Gold-plated · four-pin
+          - generic [ref=f11e608]:
+            - generic [ref=f11e610]:
+              - generic [ref=f11e611]: "08"
+              - paragraph [ref=f11e612]: "08"
+            - paragraph [ref=f11e613]: Antenna Ring
+            - paragraph [ref=f11e614]: Structural mesh
+      - generic [ref=f11e615]:
+        - generic [aria-hidden]: V
+        - generic [ref=f11e616]:
+          - generic [ref=f11e617]:
+            - paragraph [ref=f11e618]: I
+            - heading "A shell with a duty of care." [level=2] [ref=f11e619]: A shellwith a duty of care.
+          - img [aria-hidden] [ref=f11e621]:
+            - generic [ref=f11e622]:
+              - generic [ref=f11e624]: 01 · CERAMIC GLOSS
+              - generic [ref=f11e626]: 02 · DAMPING COMPOSITE
+              - generic [ref=f11e628]: 03 · SEAL FOAM
+          - paragraph [ref=f11e629]: "Ceramic-gloss outside, damping composite within. The shell does three jobs at once: seal the chamber, kill resonance, survive your pocket. It makes all three look effortless."
+      - generic [ref=f11e630]:
+        - generic [aria-hidden]: V
+        - generic [ref=f11e631]:
+          - generic [ref=f11e632]:
+            - paragraph [ref=f11e633]: II
+            - heading "Three nanometres of decision-making." [level=2] [ref=f11e634]: Three nanometresof decision-making.
+            - paragraph [ref=f11e635]: The custom Aura Silicon core runs adaptive EQ, hybrid ANC and the Bluetooth 6.0 stack simultaneously — at one-fifth the power of the off-the-shelf parts we refused to use.
+          - img [aria-hidden] [ref=f11e637]:
+            - generic [ref=f11e640]:
+              - generic [ref=f11e641]: EQ
+              - generic [ref=f11e642]: ANC
+              - generic [ref=f11e643]: BT
+              - generic [ref=f11e644]: HUB
+            - generic [ref=f11e645]:
+              - generic [ref=f11e646]: 3 nm
+              - generic [ref=f11e647]: AURA
+            - generic [ref=f11e648]: AURA SILICON
+      - generic [ref=f11e649]:
+        - generic [aria-hidden]: VI
+        - generic [ref=f11e650]:
+          - generic [ref=f11e651]:
+            - paragraph [ref=f11e652]: III
+            - heading "A steel-cased promise." [level=2] [ref=f11e653]: A steel-casedpromise.
+          - img [aria-hidden] [ref=f11e655]:
+            - generic [ref=f11e660]:
+              - generic [ref=f11e661]: 8 H
+              - generic [ref=f11e662]: 24 H
+              - generic [ref=f11e663]: 48 H
+              - generic [ref=f11e664]: CASE
+          - paragraph [ref=f11e665]: Eight hours in each bud. Forty-eight with the vessel. A steel jacket around the cell because energy this dense deserves armour. Charge-level light visible from across the room.
+      - generic [ref=f11e666]:
+        - generic:
+          - generic: ANC
+          - text: Hybrid · feed-forward + feedback
+        - generic:
+          - generic: MIC
+          - text: 6 microphones
+        - generic [aria-hidden]: VI
+        - generic [ref=f11e667]:
+          - generic [ref=f11e668]:
+            - paragraph [ref=f11e669]: Feature II · −48 dB · Hybrid ANC
+            - heading "Silence the world." [level=2] [ref=f11e670]: Silencethe world.
+          - img [aria-hidden] [ref=f11e672]:
+            - generic [ref=f11e675]:
+              - generic [ref=f11e676]: NOISE
+              - generic [ref=f11e677]: ANTI
+              - generic [ref=f11e678]: SILENCE
+          - paragraph [ref=f11e679]: Eight hundred samples per second, inverted and erased. Six microphones listen so you don't have to. Watch the red chaos dissolve against the array — that is the sound of nothing.
+      - generic [ref=f11e680]:
+        - generic:
+          - generic: PWR
+          - text: Pathway telemetry
+        - generic [aria-hidden]: VI
+        - generic [ref=f11e682]:
+          - paragraph [ref=f11e683]: Feature III · Energy architecture
+          - heading "48 hours. Zero anxiety." [level=2] [ref=f11e684]: 48 hours.Zero anxiety.
+          - paragraph [ref=f11e685]: "Follow the current: a steel-case cell feeding a 3nm amplifier through pathways thinner than a human hair. Ten minutes of charge buys five hours of soundtrack."
+          - img [aria-hidden] [ref=f11e687]:
+            - generic [ref=f11e689]: CELL
+            - generic [ref=f11e691]: 3 NM AMP
+            - generic [ref=f11e694]: DRIVER
+      - generic [ref=f11e696]:
+        - generic [aria-hidden]: VI
+        - generic [ref=f11e706]:
+          - paragraph [ref=f11e707]: Feature IV · Bluetooth 6.0 · LE Audio
+          - heading "Invisible wire. Zero doubt." [level=2] [ref=f11e708]: Invisible wire.Zero doubt.
+          - paragraph [ref=f11e709]: Dual antennas woven into the structure itself. Multipoint pairing across three devices. Auracast broadcast for sharing a moment with a stranger on a train.
+      - generic [ref=f11e710]:
+        - generic [aria-hidden]: Resonance
+        - generic:
+          - generic: FRQ
+          - text: Harmonic series · live
+        - generic:
+          - generic: THD
+          - text: Total harmonic distortion
+        - generic [aria-hidden]: IX
+        - generic [ref=f11e711]:
+          - paragraph [ref=f11e712]: Act IX · Sound Made Visible
+          - heading "Feel the harmonics." [level=2] [ref=f11e713]: Feel theharmonics.
+          - paragraph [ref=f11e722]: Every object has a resonant frequency — the note where it vibrates most freely. The Aura One is tuned so its natural resonance falls outside the audible range. What you hear is pure signal. What you don't hear is the earbud itself.
+      - generic [ref=f11e723]:
+        - generic [aria-hidden]: IX
+        - generic [ref=f11e724]:
+          - generic [ref=f11e725]:
+            - paragraph [ref=f11e726]: Harmonic analysis
+            - heading "Overtones that know their place." [level=2] [ref=f11e727]: Overtones thatknow their place.
+            - paragraph [ref=f11e728]: A violin sounds like a violin because of its overtones — the subtle harmonics stacked above the fundamental. The Aura One reproduces these faithfully, from the warm 2nd harmonic to the shimmer of the 16th.
+            - generic [ref=f11e729]:
+              - generic [ref=f11e730]:
+                - paragraph [ref=f11e731]: THD
+                - paragraph [ref=f11e732]: < 0.08%
+              - generic [ref=f11e733]:
+                - paragraph [ref=f11e734]: Harmonics
+                - paragraph [ref=f11e735]: 1st – 16th
+              - generic [ref=f11e736]:
+                - paragraph [ref=f11e737]: Response
+                - paragraph [ref=f11e738]: 20 Hz – 20 kHz
+          - img [aria-hidden] [ref=f11e740]:
+            - generic [ref=f11e741]: FUND
+            - generic [ref=f11e744]: 2TH
+            - generic [ref=f11e747]: 3TH
+            - generic [ref=f11e750]: 4TH
+            - generic [ref=f11e753]: 5TH
+            - generic [ref=f11e756]: 6TH
+      - generic [ref=f11e759]:
+        - generic [aria-hidden]: IX
+        - generic [ref=f11e760]:
+          - heading "Where music lives between notes." [level=2] [ref=f11e761]: Where musiclives between notes.
+          - paragraph [ref=f11e762]: The space between notes is where emotion lives. Reverb tails, breath sounds, the decay of a piano string — these are the overtones that make recorded music feel alive. The Aura One preserves every one.
+          - generic [ref=f11e763]:
+            - paragraph [ref=f11e766]: Warmth
+            - paragraph [ref=f11e769]: Air
+            - paragraph [ref=f11e772]: Decay
+            - paragraph [ref=f11e775]: Space
+      - generic [ref=f11e776]:
+        - generic:
+          - generic: IMU
+          - text: Head-tracking · 1000 Hz
+        - generic [aria-hidden]: VII
+        - generic [ref=f11e777]:
+          - generic [ref=f11e778]:
+            - paragraph [ref=f11e779]: Feature IV · 360° soundstage
+            - heading "The room follows you." [level=2] [ref=f11e780]: The roomfollows you.
+            - paragraph [ref=f11e781]: Head-tracked spatial audio pins every instrument to a point in real space. Turn your head — the orchestra stays exactly where the recording put it.
+          - img [aria-hidden] [ref=f11e783]:
+            - generic [ref=f11e787]: YOU
+            - generic [ref=f11e788]: VOCALS
+            - generic [ref=f11e791]: DRUMS
+            - generic [ref=f11e794]: BASS
+            - generic [ref=f11e797]: STRINGS
+      - generic [ref=f11e800]:
+        - generic [aria-hidden]: Surface
+        - generic [aria-hidden]: VII
+        - generic [ref=f11e801]:
+          - paragraph [ref=f11e802]: Experience · Craftsmanship
+          - heading "Materials chosen by touch, kept by trust." [level=2] [ref=f11e803]: Materials chosen by touch,kept by trust.
+          - generic [ref=f11e804]:
+            - paragraph [ref=f11e807]: A · Ceramic-gloss
+            - paragraph [ref=f11e810]: B · Medical silicone
+            - paragraph [ref=f11e813]: C · Sapphire mesh
+            - paragraph [ref=f11e816]: D · Recycled aluminium
+          - generic [ref=f11e817]:
+            - generic [ref=f11e818]:
+              - paragraph [ref=f11e819]: Ceramic-gloss shell
+              - paragraph [ref=f11e820]: Fingerprint-proof, cold to the first touch, warm after a minute.
+            - generic [ref=f11e821]:
+              - paragraph [ref=f11e822]: Medical silicone
+              - paragraph [ref=f11e823]: Hypoallergenic tips in four sizes, memory-set for your canal.
+            - generic [ref=f11e824]:
+              - paragraph [ref=f11e825]: Sapphire nozzle mesh
+              - paragraph [ref=f11e826]: Earwax, lint and time itself — none get through.
+            - generic [ref=f11e827]:
+              - paragraph [ref=f11e828]: Recycled aluminium
+              - paragraph [ref=f11e829]: 71% post-industrial. Luxury without the guilt line-item.
+      - generic [ref=f11e830]:
+        - generic [aria-hidden]: VIII
+        - generic [ref=f11e831]:
+          - paragraph [ref=f11e832]: Act VIII · The Family
+          - heading "One aura. Many instruments." [level=2] [ref=f11e833]: One aura.Many instruments.
+          - generic [ref=f11e834]:
+            - generic [ref=f11e835]:
+              - paragraph [ref=f11e836]: Companion buds
+              - paragraph [ref=f11e837]: Aura Buds Pro
+              - paragraph [ref=f11e838]: For training days. Same tuning DNA, sweat-sealed.
+              - paragraph [ref=f11e839]: $199
+            - generic [ref=f11e840]:
+              - paragraph [ref=f11e841]: Desktop DAC
+              - paragraph [ref=f11e842]: Aura Deck
+              - paragraph [ref=f11e843]: A matchbox-sized DAC feeding your Aura stack at 32-bit.
+              - paragraph [ref=f11e844]: $299
+            - generic [ref=f11e845]:
+              - paragraph [ref=f11e846]: Lossless link
+              - paragraph [ref=f11e847]: Aura Loop
+              - paragraph [ref=f11e848]: Wi-Fi 7 bridge for studio-grade wireless at home.
+              - paragraph [ref=f11e849]: $149
+      - generic [ref=f11e850]:
+        - generic [aria-hidden]: VIII
+        - generic [ref=f11e851]:
+          - heading "Versus everything else." [level=2] [ref=f11e852]: Versuseverything else.
+          - generic [ref=f11e853]:
+            - generic [ref=f11e854]:
+              - paragraph [ref=f11e856]: Total playback
+              - generic [ref=f11e857]:
+                - generic [ref=f11e858]:
+                  - generic [ref=f11e859]: ours
+                  - generic [ref=f11e862]: 48 h
+                - generic [ref=f11e863]:
+                  - generic [ref=f11e864]: theirs
+                  - generic [ref=f11e867]: 28 h
+            - generic [ref=f11e868]:
+              - paragraph [ref=f11e870]: Noise cancelled
+              - generic [ref=f11e871]:
+                - generic [ref=f11e872]:
+                  - generic [ref=f11e873]: ours
+                  - generic [ref=f11e876]: −48 dB
+                - generic [ref=f11e877]:
+                  - generic [ref=f11e878]: theirs
+                  - generic [ref=f11e881]: −40 dB
+            - generic [ref=f11e882]:
+              - paragraph [ref=f11e884]: Codec ceiling
+              - generic [ref=f11e885]:
+                - generic [ref=f11e886]:
+                  - generic [ref=f11e887]: ours
+                  - generic [ref=f11e890]: LDAC · aptX Lossless
+                - generic [ref=f11e891]:
+                  - generic [ref=f11e892]: theirs
+                  - generic [ref=f11e895]: AAC only
+            - generic [ref=f11e896]:
+              - paragraph [ref=f11e898]: Driver material
+              - generic [ref=f11e899]:
+                - generic [ref=f11e900]:
+                  - generic [ref=f11e901]: ours
+                  - generic [ref=f11e904]: Graphene · 3 µm
+                - generic [ref=f11e905]:
+                  - generic [ref=f11e906]: theirs
+                  - generic [ref=f11e909]: Plastic composite
+            - generic [ref=f11e910]:
+              - paragraph [ref=f11e912]: Case machining
+              - generic [ref=f11e913]:
+                - generic [ref=f11e914]:
+                  - generic [ref=f11e915]: ours
+                  - generic [ref=f11e918]: CNC aluminium
+                - generic [ref=f11e919]:
+                  - generic [ref=f11e920]: theirs
+                  - generic [ref=f11e923]: Injected polymer
+          - paragraph [ref=f11e924]: Category averages · flagship tier · 2026
+      - generic [ref=f11e925]:
+        - generic [aria-hidden]: Assembly
+        - generic:
+          - generic: LOC
+          - text: Cleanroom · ISO 5
+        - generic:
+          - generic: TOL
+          - text: ± 2 µm tolerance
+        - generic [aria-hidden]: XII
+        - generic [ref=f11e926]:
+          - generic [ref=f11e927]:
+            - paragraph [ref=f11e928]: Act XII · Where precision meets purpose
+            - heading "Hand-assembled. Machine-verified." [level=2] [ref=f11e929]: Hand-assembled.Machine-verified.
+            - paragraph [ref=f11e930]: In an ISO 5 cleanroom, forty-seven components come together in a sequence refined over eleven hundred prototypes. Every joint is laser-welded. Every seal is pressure-tested. Every unit is listened to by a human being before it leaves.
+            - generic [ref=f11e931]:
+              - generic [ref=f11e932]:
+                - paragraph [ref=f11e933]: Components
+                - paragraph [ref=f11e934]: 47 per unit
+              - generic [ref=f11e935]:
+                - paragraph [ref=f11e936]: Tolerance
+                - paragraph [ref=f11e937]: ± 2 µm
+              - generic [ref=f11e938]:
+                - paragraph [ref=f11e939]: Test
+                - paragraph [ref=f11e940]: 100% listen
+          - img [aria-hidden] [ref=f11e942]:
+            - generic [ref=f11e943]: DIAPHRAGM
+            - generic [ref=f11e946]: COIL
+            - generic [ref=f11e949]: MAGNET
+            - generic [ref=f11e952]: PCB
+            - generic [ref=f11e955]: SHELL
+            - generic [ref=f11e958]: SEAL
+            - generic [ref=f11e961]: SEQUENCE · 41 MIN
+      - generic [ref=f11e962]:
+        - generic [aria-hidden]: XII
+        - generic [ref=f11e963]:
+          - generic [ref=f11e964]:
+            - paragraph [ref=f11e965]: Calibration · every unit
+            - heading "Tuned to a reference curve." [level=2] [ref=f11e966]: Tuned toa reference curve.
+          - img [aria-hidden] [ref=f11e968]:
+            - generic [ref=f11e971]:
+              - generic [ref=f11e972]: TARGET
+              - generic [ref=f11e973]: ACTUAL
+              - generic [ref=f11e974]: ± 0.5 dB
+          - paragraph [ref=f11e975]: "Every unit is measured against a reference curve. Deviations greater than 0.5 dB are rejected. The result: two earbuds that sound identical, even though they were assembled by different technicians on different days."
+      - generic [ref=f11e976]:
+        - generic [aria-hidden]: XII
+        - generic [ref=f11e978]:
+          - paragraph [ref=f11e979]: Final verification
+          - heading "Every unit listened to." [level=2] [ref=f11e980]: Every unitlistened to.
+          - generic [ref=f11e981]:
+            - paragraph [ref=f11e984]: Frequency sweep
+            - paragraph [ref=f11e987]: Phase coherence
+            - paragraph [ref=f11e990]: Leakage test
+          - paragraph [ref=f11e991]: Automated at every step, verified by ear at the last. Technology ensures consistency. Humanity ensures soul.
+      - generic [ref=f11e992]:
+        - generic [aria-hidden]: IX
+        - generic [ref=f11e993]:
+          - paragraph [ref=f11e995]: Act IX · Everything Returns
+          - heading "Perfectly in tune." [level=2] [ref=f11e996]
+          - paragraph [ref=f11e997]: Every part finds its way home. The magnetic clack you just heard? That was forty-one minutes of machining agreeing with itself.
+      - generic [ref=f11e998]:
+        - generic [aria-hidden]: Forever
+        - generic:
+          - generic: EOF
+          - text: End of transmission
+        - generic [ref=f11e999]:
+          - paragraph [ref=f11e1000]: The future of listening ships spring 2027
+          - heading "Hear Everything." [level=2] [ref=f11e1002]:
+            - generic [ref=f11e1003]: Hear
+            - generic [ref=f11e1004]: Everything.
+          - generic [ref=f11e1005]:
+            - generic [ref=f11e1006]:
+              - paragraph [ref=f11e1007]: 11 g
+              - paragraph [ref=f11e1008]: per bud
+            - generic [ref=f11e1009]:
+              - paragraph [ref=f11e1010]: 48 h
+              - paragraph [ref=f11e1011]: battery
+            - generic [ref=f11e1012]:
+              - paragraph [ref=f11e1013]: −48 dB
+              - paragraph [ref=f11e1014]: ANC
+            - generic [ref=f11e1015]:
+              - paragraph [ref=f11e1016]: 3 nm
+              - paragraph [ref=f11e1017]: silicon
+          - paragraph [ref=f11e1018]: Limited to first 1000
+          - button "Pre-Order $349" [ref=f11e1019]:
+            - generic [ref=f11e1020]: Pre-Order
+            - generic [ref=f11e1021]: $349
+            - generic [aria-hidden] [ref=f11e1022]: →
+          - paragraph [ref=f11e1023]: Eleven grams. Forty-eight hours. Three nanometres.The future of wireless audio.
+          - generic [ref=f11e1024]:
+            - generic [ref=f11e1025]: Aura Audio © 2026
+            - generic [ref=f11e1026]: Designed in silence
+    - generic [ref=f11e1027]:
+      - generic [ref=f11e1028]:
+        - generic [ref=f11e1029]: AURA One
+        - generic [ref=f11e1030]: ·
+        - generic [ref=f11e1031]: Spring 2027
+      - generic [ref=f11e1033]: $349
+      - generic [ref=f11e1034]: Obsidian DLC
+      - button "Reserve — $50" [ref=f11e1038]
+    - button "Dismiss" [ref=f11e1042]
+    - generic [ref=f11e1044]:
+      - generic [ref=f11e1045]:
+        - paragraph [ref=f11e1046]: AURA
+        - paragraph [ref=f11e1047]: AUDIO SYSTEMS
+      - generic [ref=f11e1048]: AURA BIOS v4.2.1 — Initializing...▊
+  - button "Open Next.js Dev Tools" [ref=f11e1057] [cursor=pointer]

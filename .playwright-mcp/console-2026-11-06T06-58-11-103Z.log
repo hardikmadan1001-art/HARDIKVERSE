@@ -1,0 +1,2003 @@
+[    1885ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[    1942ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0kla17-._.js:15093
+[    1968ms] Error: ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./src/components/ui/WorldLoading.tsx:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file:///Users/hardikmadan/.claude/worktrees/hardikverse-dev/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1417:59)
+    at DevBundlerService.getCompilationError (file:///Users/hardikmadan/.claude/worktrees/hardikverse-dev/node_modules/next/dist/server/lib/dev-bundler-service.js:59:55)
+    at DevServer.getCompilationError (file:///Users/hardikmadan/.claude/worktrees/hardikverse-dev/node_modules/next/dist/server/dev/next-dev-server.js:754:42)
+    at DevServer.findPageComponents (file:///Users/hardikmadan/.claude/worktrees/hardikverse-dev/node_modules/next/dist/server/dev/next-dev-server.js:724:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/hardikmadan/.claude/worktrees/hardikverse-dev/node_modules/next/dist/server/base-server.js:1828:26)
+[    1964ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:756
+[    2026ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2066ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2105ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:756
+[    2112ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2148ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2195ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2241ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2287ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2335ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2384ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2433ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2454ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2499ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2538ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2583ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2628ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2673ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2719ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2764ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2811ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2857ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2901ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2946ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    2992ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3037ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3082ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3127ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3165ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3211ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3257ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3304ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3350ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3388ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3434ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3470ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3510ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3555ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3601ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3649ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3695ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3741ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3787ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3833ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3879ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3925ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    3969ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    4008ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    4046ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    4085ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    4132ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    4171ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    4210ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    4248ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    4284ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    4326ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    4372ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    4418ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    4463ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    4510ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    4556ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    4602ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    4649ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    4697ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    4745ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    4791ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    4837ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    4884ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    4927ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    4971ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    5017ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    5062ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    5137ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    5184ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    5228ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    5274ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    5330ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    5369ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    5472ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    5519ms] [ERROR] ./src/components/ui/WorldLoading.tsx:4:1
+Error: Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import { useEffect, useState } from "react";
+> 4 | import { motion, AnimatePresence } from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | /**
+  7 |  * WorldLoading - An immersive sequence that prepares the user's aural world.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/ui/WorldLoading.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/ui/WorldLoading.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1817
+[    5721ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:756
+[    5951ms] [LOG] [Fast Refresh] done in 330ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:756
+[    6055ms] [LOG] [Fast Refresh] done in 330ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:756
+[    6369ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    6407ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    6435ms] [WARNING] %c%s%c ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    6581ms] [ERROR] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} segmentPath={[...]} ...>
+      <SegmentViewNode type="page" pagePath="page.tsx">
+        <SegmentTrieNode>
+        <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+          <Home params={Promise} searchParams={Promise}>
+            <main className="bg-black t...">
+              <AuraLoader>
+              <div>
+              <div>
+              <div>
+              <div>
+              <CustomCursor>
+              <Hud>
+              <ChapterScrubber>
+              <CinemaMode>
+              <HUDViewportMode>
+              <Experience>
+              <SmoothScroll>
+                <CinematicOverlay>
+                  <div ref={{current:null}} className="relative z...">
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene id="orbit" act={2}>
+                      <section id="scene-orbit" data-scene={true} data-name="Orbit" data-act={2} style={{height:"400vh"}} ...>
+                        <GridBackdrop>
+                        <TechLabel>
+                        <TechLabel>
+                        <div className="absolute r..." data-reveal={true}>
+                          <CompassDial>
+                            <svg viewBox="0 0 120 120" className="h-28 w-28" aria-hidden={true}>
+                              <circle>
+                              <circle>
+                              <line>
+                              <line>
+                              <line>
+                              <line>
+                              <line>
+                              <line>
+                              <line>
+                              <line>
+                              <line
+                                x1={34.99999999999998}
++                               y1={16.698729810778083}
+-                               y1="16.698729810778076"
+                                x2={31.999999999999975}
++                               y2={11.502577388071451}
+-                               y2="11.502577388071444"
+                                stroke="rgba(255,255,255,0.4)"
+                                strokeWidth="0.7"
+                              >
+                              ...
+                              ...
+                        ...
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene>
+                    <Scene id="reassembly" act={9}>
+                      <section id="scene-reas..." data-scene={true} data-name="Reassembly" data-act={9} ...>
+                        <GridBackdrop>
+                        <ActMark>
+                        <div data-content={true} className="sticky top...">
+                          <ConvergingParticles>
+                            <div aria-hidden={true} className="pointer-ev...">
+                              <span>
+                              <span>
+                              <span>
+                              <span>
+                              <span>
+                              <span>
+                              <span>
+                              <span>
+                              <span>
+                              <span
+                                className="absolute left-1/2 top-1/2 h-1 w-1 rounded-full bg-[#57e6ff]/80"
+                                style={{
++                                 animation: "converge 2.4s ease-in-out infinite"
++                                 animationDelay: "0.45s"
++                                 --ox: "-29.56414504036118vmin"
+-                                 --ox: "-29.56414504036118vmin"
++                                 --oy: "-12.24586983568287vmin"
+-                                 --oy: "-12.245869835682868vmin"
+-                                 animation-duration: "2.4s"
+-                                 animation-timing-function: "ease-in-out"
+-                                 animation-iteration-count: "infinite"
+-                                 animation-direction: "normal"
+-                                 animation-fill-mode: "none"
+-                                 animation-play-state: "running"
+-                                 animation-name: "converge"
+-                                 animation-timeline: "auto"
+-                                 animation-range-start: "normal"
+-                                 animation-range-end: "normal"
+-                                 animation-delay: "0.45s"
+                                }}
+                              >
+                              ...
+                              ...
+                          ...
+                    <Scene id="final" act={9}>
+                      <section id="scene-final" data-scene={true} data-name="Hear Every..." data-act={9} ...>
+                        <GiantWord>
+                        <CornerFrame>
+                        <TechLabel>
+                        <div>
+                        <div aria-hidden={true} className="pointer-ev...">
+                          <span>
+                          <span>
+                          <span>
+                          <span>
+                          <span
+                            className="absolute rounded-full bg-[#57e6ff]/30"
+                            style={{
++                             width: "2px"
+-                             width: "2px"
++                             height: "2px"
+-                             height: "2px"
++                             left: "84.79479153066063%"
+-                             left: "84.7948%"
++                             top: "88.64353092482449%"
+-                             top: "88.6435%"
++                             animation: "floatSlow 5s ease-in-out infinite"
++                             animationDelay: "0.6s"
+-                             animation-duration: "5s"
+-                             animation-timing-function: "ease-in-out"
+-                             animation-iteration-count: "infinite"
+-                             animation-direction: "normal"
+-                             animation-fill-mode: "none"
+-                             animation-play-state: "running"
+-                             animation-name: "floatSlow"
+-                             animation-timeline: "auto"
+-                             animation-range-start: "normal"
+-                             animation-range-end: "normal"
+-                             animation-delay: "0.6s"
+                            }}
+                          >
+                          <span>
+                          <span>
+                          <span>
+                          <span>
+                          <span>
+                          <span>
+                          <span>
+                          <span>
+                          <span>
+                          <span>
+                          <span>
+                          <span>
+                          <span>
+                          <span>
+                          <span>
+                          <span
+                            className="absolute rounded-full bg-[#57e6ff]/30"
+                            style={{
++                             width: "3px"
+-                             width: "3px"
++                             height: "3px"
+-                             height: "3px"
++                             left: "39.99999999999999%"
+-                             left: "40%"
++                             top: "32.679491924311236%"
+-                             top: "32.6795%"
++                             animation: "floatSlow 5s ease-in-out infinite"
++                             animationDelay: "3s"
+-                             animation-duration: "5s"
+-                             animation-timing-function: "ease-in-out"
+-                             animation-iteration-count: "infinite"
+-                             animation-direction: "normal"
+-                             animation-fill-mode: "none"
+-                             animation-play-state: "running"
+-                             animation-name: "floatSlow"
+-                             animation-timeline: "auto"
+-                             animation-range-start: "normal"
+-                             animation-range-end: "normal"
+-                             animation-delay: "3s"
+                            }}
+                          >
+                          ...
+                        ...
+              ...
+      ...
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[    6714ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    6716ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    6716ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    6772ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    6864ms] [ERROR] Please enable the NormalPass in the EffectComposer in order to use SSAO. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[    6864ms] [ERROR] Please enable the NormalPass in the EffectComposer in order to use SSAO. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[    6874ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/assets/interactive/guitar.png:0
+[    7170ms] Error: Could not load /assets/interactive/guitar.png: undefined
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1272:48
+    at HTMLImageElement.onImageError (http://localhost:3000/_next/static/chunks/node_modules_three_build_three_core_18d0oq6.js:32632:26)
+[    7179ms] Error: Could not load /assets/interactive/guitar.png: undefined
+    at http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0umeb8u._.js:1272:48
+    at HTMLImageElement.onImageError (http://localhost:3000/_next/static/chunks/node_modules_three_build_three_core_18d0oq6.js:32632:26)
+[    7183ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    7185ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    7185ms] [WARNING] GSAP target null not found. https://gsap.com @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    7737ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776

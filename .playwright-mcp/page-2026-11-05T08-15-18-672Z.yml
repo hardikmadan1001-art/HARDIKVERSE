@@ -1,0 +1,78 @@
+- generic [active]:
+  - paragraph [ref=f2e2]: PRESS N TO SKIP
+  - generic [ref=f2e20]:
+    - link "nCrypt" [ref=f2e21] [cursor=pointer]:
+      - /url: /
+    - link "Events" [ref=f2e22] [cursor=pointer]:
+      - /url: events
+    - link "Discord" [ref=f2e23] [cursor=pointer]:
+      - /url: discord
+    - link "Brochure" [ref=f2e24] [cursor=pointer]:
+      - /url: brochure
+    - link "Register" [ref=f2e25] [cursor=pointer]:
+      - /url: register
+  - generic [ref=f2e26]:
+    - paragraph: Y17
+  - generic [ref=f2e27]:
+    - paragraph: "2026"
+  - generic [ref=f2e30]:
+    - paragraph [ref=f2e34]: nCoris nCrypt
+    - generic [ref=f2e36]:
+      - paragraph [ref=f2e38]: NCRYPT Y17
+      - generic:
+        - generic [ref=f2e39] [cursor=pointer]:
+          - paragraph: Team
+        - generic [ref=f2e40] [cursor=pointer]:
+          - paragraph: Alumni
+      - paragraph [ref=f2e41]: DEVANSH YADAV ∙ PRESIDENT
+      - paragraph [ref=f2e43]: jalebi
+      - generic:
+        - paragraph
+    - generic [ref=f2e45]:
+      - generic [ref=f2e46] [cursor=pointer]
+      - generic [ref=f2e47] [cursor=pointer]
+      - generic [ref=f2e48] [cursor=pointer]
+      - generic [ref=f2e49] [cursor=pointer]
+      - generic [ref=f2e50] [cursor=pointer]
+      - generic [ref=f2e51] [cursor=pointer]
+      - generic [ref=f2e52] [cursor=pointer]
+      - generic [ref=f2e53] [cursor=pointer]
+      - generic [ref=f2e54] [cursor=pointer]
+      - generic [ref=f2e55] [cursor=pointer]
+      - generic [ref=f2e56] [cursor=pointer]
+      - generic [ref=f2e57] [cursor=pointer]
+      - generic [ref=f2e58] [cursor=pointer]
+      - generic [ref=f2e59] [cursor=pointer]
+      - generic [ref=f2e60] [cursor=pointer]
+      - generic [ref=f2e61] [cursor=pointer]
+      - generic [ref=f2e62] [cursor=pointer]
+      - generic [ref=f2e63] [cursor=pointer]
+      - generic [ref=f2e64] [cursor=pointer]
+  - generic [ref=f2e65]:
+    - generic [ref=f2e68]:
+      - paragraph: nCrypt
+    - generic [ref=f2e69]:
+      - generic:
+        - generic [ref=f2e70] [cursor=pointer]:
+          - paragraph: Team
+        - generic [ref=f2e71] [cursor=pointer]:
+          - paragraph: Alumni
+      - generic [ref=f2e72]:
+        - generic [ref=f2e73] [cursor=pointer]: 2k25
+        - generic [ref=f2e74] [cursor=pointer]: 2k24
+        - generic [ref=f2e75] [cursor=pointer]: 2k22
+      - generic [ref=f2e76]:
+        - generic [ref=f2e77]: Aaryan Parveen ∙ 2k25 president
+        - generic [ref=f2e80]: Vasishth Gupta ∙ 2k25 vice-president
+        - generic [ref=f2e83]: Atharv Wali ∙ 2k25 director
+        - generic [ref=f2e86]: Atharv Batra ∙ 2k25 director
+        - generic [ref=f2e89]: Shinjan Singh ∙ 2k25 director
+        - generic [ref=f2e92]: Parikshit Jha ∙ 2k25 director
+        - generic [ref=f2e95]: Ranveer Kalra ∙ 2k25 director
+        - generic [ref=f2e98]: Aakash Ashok ∙ 2k25 member
+        - generic [ref=f2e101]: Shaurya Sirohi ∙ 2k25 member
+        - generic [ref=f2e104]: Yohance Parate ∙ 2k25 member
+        - generic [ref=f2e107]: Apoorva Verma ∙ 2k25 member
+        - generic [ref=f2e110]: Puneet Jangid ∙ 2k25 member
+        - generic [ref=f2e113]: Anuraj V. Ahirwal ∙ 2k25 member
+    - generic: CLASS OF 2K25 CLASS OF 2K25 CLASS OF 2K25
